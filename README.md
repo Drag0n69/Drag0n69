@@ -6,7 +6,7 @@
 <br><br>
 
 <!-- TEXTE TYPOGRAPHIQUE SVG DYNAMIQUE (EFFET TERMINAL DE BORD) -->
-<a href="https://github.com/TON_USERNAME">
+<a href="https://github.com/Drag0n69">
   <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=28&pause=1000&color=00FFCC&center=true&vCenter=true&width=800&lines=ALERTE+NOIRE+ACTIV%C3%89E...;Navigation+dans+le+R%C3%A9seau+Myc%C3%A9lien;Canalisation+des+donn%C3%A9es+subspatiales;Bienvenue+sur+mon+Terminal+Central." alt="Typing SVG" />
 </a>
 
