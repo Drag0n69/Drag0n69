@@ -60,7 +60,38 @@ Je suis un architecte de données naviguant à travers le code comme le *Protota
   <!-- CARTE DES LANGAGES -->
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TON_USERNAME&layout=compact&hide_border=true&title_color=00FFCC&text_color=a9b2c3&bg_color=0d1117&icon_color=BF00FF" alt="Top Langs" width="48%" />
 </p>
+<div align="center">
+  <!-- Remplace par l'URL de ton image de bannière -->
+  <img src="https://via.placeholder.com/800x200/0d1117/00ffaa?text=🍄+MYCELIUM+NEXUS+|+Multi-Layered+Architecture" alt="Banner" />
+</div>
 
+<br>
+
+### 🌌 Initiating Handshake...
+Salut. Je ne code pas seulement des applications, je **terroforme des écosystèmes**. 
+Mon environnement de travail est un organisme vivant : une architecture Windows structurée comme un dépôt Git multi-couches, régulée par des réseaux WSL symbiosés.
+
+---
+
+### 🧬 La Topologie de mon Réseau (The Fractal Env)
+
+Voici comment mes systèmes pensent et respirent :
+
+```yaml
+root@my-nexus:~$ tree -L 3 /mnt/brain
+📁 C:/ L'Écorce Terrestre (Windows OS)
+│
+├── 📂 /Layer_1_Quantum_Core (Scripts & Automatisation)
+│   ├── ⚡ powershell_mycelium.ps1 (Système Immunitaire)
+│   └── 🌐 hosts_routing.dns (Synapses)
+│
+├── 📂 /Layer_2_Subspace (Environnements WSL2)
+│   ├── 🐧 Ubuntu-Node-Alpha (Backend/Docker)
+│   └── 🐧 Arch-Node-Omega (Expérimentations)
+│
+└── 📂 /Layer_3_The_Grid (Dépôts Git)
+    ├── 🌿 /Symbiotic-Projects
+    └── 🕸️ /Neural-Networks
 <!-- GRAPHIQUE DE CONTRIBUTION STYLE SERPENT MYCÉLIEN -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TON_USERNAME/TON_USERNAME/output/github-contribution-grid-snake-dark.svg">
