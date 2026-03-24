@@ -1,106 +1,28 @@
 <div align="center">
 
-<!-- HEADER ANIMÉ -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Jordan%20Zerathe&fontSize=70&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Founder%20of%20Mycelium%20OS%20%E2%80%94%20AI%20Architect%20%F0%9F%8D%84&descAlignY=55&descSize=20" width="100%" />
+<!-- BANNIÈRE ANIMÉE : SIMULATION DE NAVIGATION MYCÉLIENNE -->
+<img src="https://user-images.githubusercontent.com/74038190/212284100-56119e3f-33f3-4e67-ab6b-3543ce9c2fdf.gif" alt="Mycelial Spore Jump Banner" width="100%" style="border-radius: 15px; box-shadow: 0px 0px 20px #00ffcc;"/>
 
-<!-- BADGES STATUS -->
-[![Mycelium OMEGA](https://img.shields.io/badge/🍄%20Mycelium-OMEGA%20V9.0-6366f1?style=for-the-badge&logoColor=white)](https://github.com/Drag0n69/Mycelium-AI-core)
-[![Status](https://img.shields.io/badge/Status-Building%20in%20Public-22c55e?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/Drag0n69)
-[![VPS](https://img.shields.io/badge/☁️%20GCloud-34.163.188.39-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)](https://cloud.google.com)
+<br><br>
 
-</div>
+<!-- TEXTE TYPOGRAPHIQUE SVG DYNAMIQUE (EFFET TERMINAL DE BORD) -->
+<a href="https://github.com/TON_USERNAME">
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=28&pause=1000&color=00FFCC&center=true&vCenter=true&width=800&lines=ALERTE+NOIRE+ACTIV%C3%89E...;Navigation+dans+le+R%C3%A9seau+Myc%C3%A9lien;Canalisation+des+donn%C3%A9es+subspatiales;Bienvenue+sur+mon+Terminal+Central." alt="Typing SVG" />
+</a>
 
----
+<br>
 
-## 🔱 Qui suis-je ?
+<!-- BADGES D'ÉTAT DU VAISSEAU -->
+<img src="https://img.shields.io/badge/Statut-En%20Orbite-00FFCC?style=for-the-badge&logo=starship&logoColor=white&color=0d1117&labelColor=bf00ff" alt="Status"/>
+<img src="https://img.shields.io/badge/Propulsion-Spores%20Actives-BF00FF?style=for-the-badge&logo=graphql&logoColor=white&color=0d1117&labelColor=00ffcc" alt="Drive"/>
+<img src="https://img.shields.io/badge/Dernier%20Saut-Alpha%20Quadrant-0d1117?style=for-the-badge&logo=space-x&logoColor=white&color=00ffcc&labelColor=0d1117" alt="Quadrant"/>
 
-Je suis **Jordan Zerathe**, développeur et architecte IA basé en France 🇫🇷. Je construis **Mycelium OS** — un système d'exploitation cognitif orchestrant une ruche de **15 agents IA** spécialisés.
+<hr style="border: 1px solid #bf00ff; width: 60%;">
 
-> *"L'intelligence n'est pas une chose unique. C'est un réseau."* — Principe fondateur de Mycelium
+### 🌌 Journal de Bord // Officier Scientifique
+*"Là où l'organique rencontre le synthétique, l'information voyage instantanément."*
 
----
-
-## 🍄 Mycelium OS — Le Projet Principal
-
-<div align="center">
-
-```
-    __  ___                      _
-   /  |/  /_  __________  ____  (_)_  ______ ___
-  / /|_/ / / / / ___/ _ \/ / / / / / / / __ `__ \
- / /  / / /_/ / /__/  __/ / /_/ / / /_/ / / / / /
-/_/  /_/\__, /\___/\___/_/\__,_/_/\__,_/_/ /_/ /_/
-       /____/       O M E G A   E N G I N E
-```
-
-</div>
-
-**Mycelium** est un OS d'IA modulaire avec :
-
-| Module | Rôle | Techno |
-|--------|------|--------|
-| 🧠 **Core** | Runtime multi-agents | Bun + Fastify |
-| ⚡ **Nexus** | Gateway WebSocket | Prisma + PGVector |
-| 🎨 **Cockpit** | Interface de contrôle | Vue 3 + Tailwind v4 |
-| 👁️ **Watchtower** | Monitoring & Sécurité | Node + Docker |
-
----
-
-## 🛠️ Stack Technique
-
-<div align="center">
-
-![Bun](https://img.shields.io/badge/Bun-1.3.10-f9f1e1?style=flat-square&logo=bun&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-Strict-3178c6?style=flat-square&logo=typescript&logoColor=white)
-![Fastify](https://img.shields.io/badge/Fastify-5.x-000000?style=flat-square&logo=fastify&logoColor=white)
-![Vue.js](https://img.shields.io/badge/Vue-3.x-41b883?style=flat-square&logo=vuedotjs&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL+PGVector-15-4169e1?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-Alpine-dc382d?style=flat-square&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-29.x-2496ed?style=flat-square&logo=docker&logoColor=white)
-![Google Gemini](https://img.shields.io/badge/Gemini-2.5%20Pro-4285F4?style=flat-square&logo=google&logoColor=white)
-![Claude](https://img.shields.io/badge/Claude-Sonnet%204.6-f97316?style=flat-square&logoColor=white)
-
-</div>
-
----
-
-## 🤖 La Ruche — 15 Agents Meta
-
-```mermaid
-graph LR
-    J[👤 Jordan] --> AG[🔱 Antigravity\nOrchestrator]
-    AG --> PRO[🏗️ Builder\n🎨 Vision\n🏥 Clinic\n🚀 Deploy]
-    AG --> FLASH[✅ QA\n🐛 Debug\n👁️ Monitor\n✍️ Writer\n🔍 Research]
-    AG --> SONNET[🏛️ Architect\n🔮 Oracle\n🥋 Sensei]
-    AG --> DALLE[🎨 Davinci]
-```
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Drag0n69&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Drag0n69&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
-
-</div>
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=Drag0n69&theme=tokyonight&hide_border=true&background=0d1117)](https://git.io/streak-stats)
-
-</div>
-
----
-
-## 🔗 Me Trouver
-
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-Drag0n69-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Drag0n69)
-[![Myxelium Corp](https://img.shields.io/badge/Org-Myxelium--Corp-6366f1?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Myxelium-Corp)
-[![Email](https://img.shields.io/badge/Email-jordan.zerathe%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jordan.zerathe@gmail.com)
+Je suis un architecte de données naviguant à travers le code comme le *Prototaxites stellaviatori* s'étend dans l'univers. Mon objectif : construire des architectures logicielles aussi résilientes et connectées qu'un réseau neuronal symbiotique.
 
 </div>
 
@@ -108,8 +30,53 @@ graph LR
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%" />
+### 🧬 Matrice de Culture (Technologies & Spores)
+*Les éléments qui alimentent mon moteur de distorsion.*
 
-*Mycelium OMEGA — Built with 🤍 by Jordan Zerathe* 🍄🛡️🚀
+**[ Noyau de Commandement ]**<br>
+<img src="https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=00FFCC&border=00FFCC"/>
+<img src="https://img.shields.io/badge/JavaScript-0d1117?style=for-the-badge&logo=javascript&logoColor=00FFCC"/>
+<img src="https://img.shields.io/badge/TypeScript-0d1117?style=for-the-badge&logo=typescript&logoColor=00FFCC"/>
 
+**[ Systèmes de Survie & Infrastructure ]**<br>
+<img src="https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker&logoColor=BF00FF"/>
+<img src="https://img.shields.io/badge/Kubernetes-0d1117?style=for-the-badge&logo=kubernetes&logoColor=BF00FF"/>
+<img src="https://img.shields.io/badge/AWS-0d1117?style=for-the-badge&logo=amazon-aws&logoColor=BF00FF"/>
+
+**[ Réseaux Symbiotiques (Bases de données) ]**<br>
+<img src="https://img.shields.io/badge/PostgreSQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=00FFCC"/>
+<img src="https://img.shields.io/badge/MongoDB-0d1117?style=for-the-badge&logo=mongodb&logoColor=00FFCC"/>
+<img src="https://img.shields.io/badge/GraphQL-0d1117?style=for-the-badge&logo=graphql&logoColor=00FFCC"/>
+
+<br>
+
+### 📊 Télémétrie du Vaisseau (Données GitHub)
+*Résonance du mycélium mesurée en temps réel via l'API Subspatiale.*
+
+<p align="center">
+  <!-- CARTE DE STATS CUSTOMISÉE THEME NEON/DARK -->
+  <img src="https://github-readme-stats.vercel.app/api?username=TON_USERNAME&show_icons=true&hide_border=true&title_color=00FFCC&icon_color=BF00FF&text_color=a9b2c3&bg_color=0d1117&rank_icon=github" alt="GitHub Stats" width="48%" />
+  
+  <!-- CARTE DES LANGAGES -->
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TON_USERNAME&layout=compact&hide_border=true&title_color=00FFCC&text_color=a9b2c3&bg_color=0d1117&icon_color=BF00FF" alt="Top Langs" width="48%" />
+</p>
+
+<!-- GRAPHIQUE DE CONTRIBUTION STYLE SERPENT MYCÉLIEN -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TON_USERNAME/TON_USERNAME/output/github-contribution-grid-snake-dark.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/TON_USERNAME/TON_USERNAME/output/github-contribution-grid-snake.svg" width="100%">
+</picture>
+*(Note: Pour activer le serpent, tu devras configurer une GitHub Action "snk", sinon retire ce bloc).*
+
+<br>
+
+### 🛸 Établir une Connexion Subspatiale
+*Canaux ouverts pour toutes alliances ou explorations conjointes.*
+
+<a href="https://linkedin.com/in/TON_LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-R%C3%A9seau%20Pro-0d1117?style=for-the-badge&logo=linkedin&logoColor=00FFCC&labelColor=BF00FF" alt="LinkedIn"></a>
+<a href="mailto:TON_EMAIL@starfleet.com"><img src="https://img.shields.io/badge/Email-Canal%20S%C3%A9curis%C3%A9-0d1117?style=for-the-badge&logo=gmail&logoColor=00FFCC&labelColor=BF00FF" alt="Email"></a>
+
+<br><br>
+
+<img src="https://img.shields.io/badge/Live%20Long-And%20Prosper-%230d1117?style=flat-square&logo=star-trek&logoColor=00FFCC&color=0d1117&labelColor=bf00ff" />
 </div>
