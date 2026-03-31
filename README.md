@@ -1,4 +1,3 @@
-<div align="center">
 
 <!-- BANNIÈRE ANIMÉE : SIMULATION DE NAVIGATION MYCÉLIENNE -->
 <img src="https://user-images.githubusercontent.com/74038190/212284100-56119e3f-33f3-4e67-ab6b-3543ce9c2fdf.gif" alt="Mycelial Spore Jump Banner" width="100%" style="border-radius: 15px; box-shadow: 0px 0px 20px #00ffcc;"/>
