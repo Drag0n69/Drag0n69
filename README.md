@@ -54,10 +54,10 @@ Je suis un architecte de données naviguant à travers le code comme le *Protota
 
 <p align="center">
   <!-- CARTE DE STATS CUSTOMISÉE THEME NEON/DARK -->
-  <img src="https://github-readme-stats.vercel.app/api?username=TON_USERNAME&show_icons=true&hide_border=true&title_color=00FFCC&icon_color=BF00FF&text_color=a9b2c3&bg_color=0d1117&rank_icon=github" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Drag0n69&show_icons=true&hide_border=true&title_color=00FFCC&icon_color=BF00FF&text_color=a9b2c3&bg_color=0d1117&rank_icon=github" alt="GitHub Stats" width="48%" />
   
   <!-- CARTE DES LANGAGES -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TON_USERNAME&layout=compact&hide_border=true&title_color=00FFCC&text_color=a9b2c3&bg_color=0d1117&icon_color=BF00FF" alt="Top Langs" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Drag0n69&layout=compact&hide_border=true&title_color=00FFCC&text_color=a9b2c3&bg_color=0d1117&icon_color=BF00FF" alt="Top Langs" width="48%" />
 </p>
 <div align="center">
   <!-- Remplace par l'URL de ton image de bannière -->
