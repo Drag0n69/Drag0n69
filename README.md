@@ -3,6 +3,8 @@
   <img src="https://user-images.githubusercontent.com/74038190/212284100-56119e3f-33f3-4e67-ab6b-3543ce9c2fdf.gif" alt="Mycelial Spore Jump Banner" width="100%" style="border-radius: 15px; box-shadow: 0px 0px 25px rgba(191, 0, 255, 0.5); border: 1px solid #00ffcc;"/>
   <br><br>
 
+BadgeBadge
+![Mycelium OS](https://img.shields.io/badge/Mycelium-OS-indigo?style=for-the-badge&logo=github
   <a href="https://github.com/Drag0n69">
     <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=28&pause=1000&color=00FFCC&center=true&vCenter=true&width=800&lines=NEXUS+CENTRAL+ACTIV%C3%89...;Connexion+au+Hive+Mycelium+OS...;D%C3%A9ploiement+des+Agents+OpenClaw...;Synchronisation+OpenMediaVault+termin%C3%A9e.;Bienvenue,+Architecte+Jordan+Zerathe." alt="Nexus Terminal" />
   </a>
