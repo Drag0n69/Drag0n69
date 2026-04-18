@@ -1,17 +1,30 @@
-# Drag0n69
+<!-- BANNIERE ANIMEE -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Jordan%20Zerathe&fontSize=60&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Automatisation%20%7C%20Open-Source%20%7C%20Linux%20Geek%20%F0%9F%90%A7&descAlignY=60&descSize=22" width="100%" />
 
-Développeur indépendant.
+<p align="center">
+  <a href="https://github.com/Drag0n69">
+    <img src="https://komarev.com/ghpvc/?username=Drag0n69&color=44cc11" alt="profile views" />
+  </a>
+  <a href="https://github.com/Drag0n69?tab=followers">
+    <img src="https://img.shields.io/github/followers/Drag0n69?label=Followers" alt="Followers" />
+  </a>
+  <a href="https://github.com/Drag0n69">
+    <img src="https://img.shields.io/github/stars/Drag0n69?label=Profile%20Stars&logo=github" alt="Stars">
+  </a>
+  <img src="https://badgen.net/github/commits/Drag0n69/Drag0n69/main" alt="Commits main branch"/>
+  <!-- Ajoute plus de badges ci-dessous selon tes outils ou skills -->
+</p>
 
-Ce profil GitHub regroupe mes projets personnels et mes expérimentations
-techniques. L’objectif est de garder une vue claire et compréhensible
-de l’ensemble des dépôts et organisations que je gère.
+---
 
-## Ce que vous trouverez ici
-- des projets personnels
-- des dépôts d’expérimentation
-- des outils en cours d’évolution ou en pause
+## 👋 Salut, moi c'est **Jordan Zerathe** (aka Drag0n69)
 
-Les projets principaux sont épinglés sur le profil pour un accès rapide.
+Passionné d’open-source, d’automatisation, d’IA 🦾, de Linux, et de workflows modernes !  
+**Toujours prêt** à apprendre, contribuer et partager.
+
+> 🧠 _“Automatiser, c’est libérer du temps pour réinventer.”_
+
+---
 
 ## Organisation
 Je gère seul l’organisation **MyceliumOS**.
@@ -53,37 +66,66 @@ et à l’expérimentation technique.
 
 ---
 
-## 📊 GitHub Stats
+## 📈 **Stats GitHub**
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Drag0n69&show_icons=true&theme=tokyonight" height="151px"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Drag0n69&layout=compact&theme=tokyonight" height="151px"/>
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=Drag0n69&theme=tokyonight" height="151px"/>
+</p>
+
+[![GitHub Activity Graph](https://github-readme-activity-graph.cyclic.app/graph?username=Drag0n69&theme=github-compact)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+---
+
+## 🛠 **Stack / Outils principaux**
 
 <div align="center">
-
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=Drag0n69&show_icons=true&hide_border=true&bg_color=0d0d0d&title_color=4ade80&icon_color=c084fc&text_color=e2e2f0&rank_icon=github&include_all_commits=true" />
-
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Drag0n69&layout=compact&hide_border=true&bg_color=0d0d0d&title_color=4ade80&text_color=e2e2f0&langs_count=8" />
-
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com/?user=Drag0n69&hide_border=true&background=0d0d0d&stroke=4ade80&ring=c084fc&fire=fb923c&currStreakLabel=4ade80&sideLabels=e2e2f0&dates=888888&sideNums=e2e2f0&currStreakNum=4ade80" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="38"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" height="38"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="38"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg" height="38"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="38"/>
+  <!-- ajoute tes icônes fav selon ta stack ! -->
 </div>
 
 ---
 
-## 🏆 Trophées
+## 🤖 **DevOps | Workflows GitHub & Dependabot**
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Drag0n69&theme=radical&no-frame=true&row=1&column=6&margin-w=8" />
-</div>
+- **GitHub Actions** : Intégration et déploiement automatiques (CI/CD)
+- **Dependabot** : Mises à jour auto' de tes dépendances.  
+- **Badges de status** :  
+  Ajoute dans la section des badges un badge Actions pour la CI/CD :  
+  ```markdown
+  ![CI](https://github.com/Drag0n69/MonSuperBot/actions/workflows/ci.yml/badge.svg)
+  ```
+  Vérifie le nom du workflow et adapte le chemin.
+
 ---
-## Méthode
-- simplicité avant tout
-- pas de tableaux de bord externes
-- pas d’automatisation pilotée depuis le profil
-- usage des fonctionnalités GitHub standards
 
-## État actuel
-Nettoyage et stabilisation de l’ensemble des repositories en cours.
-Certaines parties peuvent évoluer progressivement.
+## 🔗 **Liens & Réseaux**
 
-## Contact
-GitHub uniquement.
+<p align="center">
+  <a href="mailto:drag0n69@mail.com"><img src="https://img.shields.io/badge/Mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  <a href="https://linkedin.com/in/jordan-zerathe"><img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white&style=for-the-badge"></a>
+  <a href="https://twitter.com/Drag0n69"><img src="https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter&logoColor=white&style=for-the-badge"></a>
+  <!-- ajoute ce que tu veux -->
+</p>
+
+---
+
+## 📚 **Ressources / Docs**
+
+- [Documentation principale](./docs/README.md)  
+- [Blog](https://drag0n69.github.io/blog)
+- [Templates & cheatsheets](./cheatsheet.md)
+
+---
+
+<p align="center">
+  <i>🤝 Merci pour la visite ! N’hésite pas à suivre, forker, ou contribuer 🔥</i>
+</p>
