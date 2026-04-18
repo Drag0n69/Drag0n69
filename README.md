@@ -74,17 +74,6 @@ et à l’expérimentation technique.
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Drag0n69&theme=radical&no-frame=true&row=1&column=6&margin-w=8" />
 </div>
-
----
-
-## 🐍 Contributions
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Drag0n69/Drag0n69/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
-</div>
-
-> *Pour activer le snake → ajouter le workflow `.github/workflows/snake.yml` (voir ci-dessous)*
-
 ---
 ## Méthode
 - simplicité avant tout
