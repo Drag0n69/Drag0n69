@@ -110,9 +110,9 @@ et à l’expérimentation technique.
 ## 🔗 **Liens & Réseaux**
 
 <p align="center">
-  <a href="mailto:drag0n69@mail.com"><img src="https://img.shields.io/badge/Mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  <a href="mailto: jordan.zerathe@gmail.com"><img src="https://img.shields.io/badge/Mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"></a>
   <a href="https://linkedin.com/in/jordan-zerathe"><img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white&style=for-the-badge"></a>
-  <a href="https://twitter.com/Drag0n69"><img src="https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter&logoColor=white&style=for-the-badge"></a>
+  <a href="https://x.com/JordanZera76441"><img src="https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter&logoColor=white&style=for-the-badge"></a>
   <!-- ajoute ce que tu veux -->
 </p>
 
@@ -120,7 +120,7 @@ et à l’expérimentation technique.
 
 ## 📚 **Ressources / Docs**
 
-- [Documentation principale](./docs/README.md)  
+- [Documentation principale](https://github.com/Myxelium-Corp/Myxelium-Doc)  
 - [Blog](https://drag0n69.github.io/blog)
 - [Templates & cheatsheets](./cheatsheet.md)
 
