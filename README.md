@@ -99,7 +99,14 @@ et à l’expérimentation technique.
 - **GitHub Actions** : Intégration et déploiement automatiques (CI/CD)
 - **Dependabot** : Mises à jour auto' de tes dépendances.  
 - **Badges de status** :  
-  Ajoute dans la section des badges un badge Actions pour la CI/CD :  
+  Ajoute dans la section des badges un badge Actions pour la CI/CD :
+  ``markdown
+  [![Build and Deploy to IKS](https://github.com/Drag0n69/Drag0n69/actions/workflows/ibm.yml/badge.svg)](https://github.com/Drag0n69/Drag0n69/actions/workflows/ibm.yml)
+  [![CodeQL Advanced](https://github.com/Drag0n69/Drag0n69/actions/workflows/codeql.yml/badge.svg)](https://github.com/Drag0n69/Drag0n69/actions/workflows/codeql.yml)
+  [![PR Check](https://github.com/Drag0n69/Drag0n69/actions/workflows/pr-check.yml/badge.svg)](https://github.com/Drag0n69/Drag0n69/actions/workflows/pr-check.yml)
+  ![CI](https://github.com/Drag0n69/MonSuperBot/actions/workflows/ci.yml/badge.svg)
+  [![Build and Deploy to IKS](https://github.com/Drag0n69/Drag0n69/actions/workflows/ibm.yml/badge.svg)](https://github.com/Drag0n69/Drag0n69/actions/workflows/ibm.yml)
+  ```
   ```markdown
   ![CI](https://github.com/Drag0n69/MonSuperBot/actions/workflows/ci.yml/badge.svg)
   ```
