@@ -1,7 +1,6 @@
 <!-- BANNIERE ANIMEE -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Jordan%20Zerathe&fontSize=60&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Automatisation%20%7C%20Open-Source%20%7C%20Linux%20Geek%20%F0%9F%90%A7&descAlignY=60&descSize=22" width="100%" />
 
-<p align="center">
   <a href="https://github.com/Drag0n69">
     <img src="https://komarev.com/ghpvc/?username=Drag0n69&color=44cc11" alt="profile views" />
   </a>
