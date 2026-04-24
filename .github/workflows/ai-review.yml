@@ -1,0 +1,16 @@
+name: AI Review
+
+on:
+  pull_request:
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Simulate AI review
+        run: |
+          echo "🤖 AI Review:"
+          echo "Check structure, docs, security"

@@ -1,68 +1,137 @@
-<div align="center">
-
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-56119e3f-33f3-4e67-ab6b-3543ce9c2fdf.gif" alt="Mycelial Spore Jump Banner" width="100%" style="border-radius: 15px; box-shadow: 0px 0px 25px rgba(191, 0, 255, 0.5); border: 1px solid #00ffcc;"/>
-  <br><br>
+<!-- BANNIERE ANIMEE -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Jordan%20Zerathe&fontSize=60&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Automatisation%20%7C%20Open-Source%20%7C%20Linux%20Geek%20%F0%9F%90%A7&descAlignY=60&descSize=22" width="100%" />
 
   <a href="https://github.com/Drag0n69">
-    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=28&pause=1000&color=00FFCC&center=true&vCenter=true&width=800&lines=NEXUS+CENTRAL+ACTIV%C3%89...;Connexion+au+Hive+Mycelium+OS...;D%C3%A9ploiement+des+Agents+OpenClaw...;Synchronisation+OpenMediaVault+termin%C3%A9e.;Bienvenue,+Architecte+Jordan+Zerathe." alt="Nexus Terminal" />
+    <img src="https://komarev.com/ghpvc/?username=Drag0n69&color=44cc11" alt="profile views" />
   </a>
+  <a href="https://github.com/Drag0n69?tab=followers">
+    <img src="https://img.shields.io/github/followers/Drag0n69?label=Followers" alt="Followers" />
+  </a>
+  <a href="https://github.com/Drag0n69">
+    <img src="https://img.shields.io/github/stars/Drag0n69?label=Profile%20Stars&logo=github" alt="Stars">
+  </a>
+  <img src="https://badgen.net/github/commits/Drag0n69/Drag0n69/main" alt="Commits main branch"/>
+  <!-- Ajoute plus de badges ci-dessous selon tes outils ou skills -->
+</p>
 
-  <br>
+---
 
-  <p align="center">
-    <img src="https://img.shields.io/badge/Core-Nexus%20Online-00FFCC?style=for-the-badge&logo=github&logoColor=0d1117&color=0d1117&labelColor=bf00ff" alt="Nexus"/>
-    <img src="https://img.shields.io/badge/Swarm-OpenClaw%20Active-BF00FF?style=for-the-badge&logo=swarm&logoColor=0d1117&color=0d1117&labelColor=00ffcc" alt="Swarm"/>
-    <img src="https://img.shields.io/badge/Network-OpenVPN%20Tunnel-0d1117?style=for-the-badge&logo=openvpn&logoColor=00ffcc&color=00ffcc&labelColor=0d1117" alt="Network"/>
-  </p>
+## 👋 Salut, moi c'est **Jordan Zerathe** (aka Drag0n69)
 
-</div>
+Passionné d’open-source, d’automatisation, d’IA 🦾, de Linux, et de workflows modernes !  
+**Toujours prêt** à apprendre, contribuer et partager.
 
-<hr style="border: 1px dashed #00FFCC; width: 80%;">
+> 🧠 _“Automatiser, c’est libérer du temps pour réinventer.”_
+
+---
+
+## Organisation
+Je gère seul l’organisation **MyceliumOS**.
+Elle regroupe des projets liés à l’infrastructure, à l’auto‑hébergement
+et à l’expérimentation technique.
+⚡ Stack Technique
+
+**AI & Agents**
+
+![Claude](https://img.shields.io/badge/Claude-Anthropic-orange?style=flat-square&logo=anthropic&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-StateGraph-4ade80?style=flat-square)
+![Gemini](https://img.shields.io/badge/Gemini-Google-4285F4?style=flat-square&logo=google&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-ChatGPT-412991?style=flat-square&logo=openai&logoColor=white)
+
+**Backend & Runtime**
+
+![Node.js](https://img.shields.io/badge/Node.js-20-339933?style=flat-square&logo=node.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Fastify](https://img.shields.io/badge/Fastify-API-000000?style=flat-square&logo=fastify&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white)
+
+**Infrastructure**
+
+![Docker](https://img.shields.io/badge/Docker-Desktop-2496ED?style=flat-square&logo=docker&logoColor=white)
+![WSL2](https://img.shields.io/badge/WSL2-Ubuntu%2024-E95420?style=flat-square&logo=ubuntu&logoColor=white)
+![Tailscale](https://img.shields.io/badge/Tailscale-VPN-0F4B8C?style=flat-square&logo=tailscale&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-Cache-DC382D?style=flat-square&logo=redis&logoColor=white)
+
+**Data**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-8-4479A1?style=flat-square&logo=mysql&logoColor=white)
+
+**Cloud & DevOps**
+
+![GCP](https://img.shields.io/badge/Google_Cloud-3_Projects-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI%2FCD-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Starlink](https://img.shields.io/badge/Network-Starlink-1d1d1d?style=flat-square&logo=spacex&logoColor=white)
+
+---
+
+## 📈 **Stats GitHub**
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Drag0n69&show_icons=true&theme=tokyonight" height="151px"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Drag0n69&layout=compact&theme=tokyonight" height="151px"/>
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=Drag0n69&theme=tokyonight" height="151px"/>
+</p>
+
+[![GitHub Activity Graph](https://github-readme-activity-graph.cyclic.app/graph?username=Drag0n69&theme=github-compact)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+---
+
+## 🛠 **Stack / Outils principaux**
 
 <div align="center">
-  
-### 🧠 Le Core // Jordan Zerathe (Drag0n69)
-*Je ne code pas des logiciels statiques, j'élève des essaims d'IA autonomes.*
-
-Je suis un **Architecte de Systèmes Agentiques**. Mon infrastructure, baptisée **Essaim Atomique V6**, est une topologie hybride où des dizaines de *Cells* (conteneurs) communiquent via un réseau mycélien sécurisé. De mon NAS local aux instances Cloud, tout est interconnecté.
-
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="38"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" height="38"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="38"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg" height="38"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="38"/>
+  <!-- ajoute tes icônes fav selon ta stack ! -->
 </div>
 
-<br>
+---
 
-### 🤖 Topologie de l'Essaim (Swarm & Infrastructure)
-Voici comment mon réseau distribue la charge cognitive et matérielle :
+## 🤖 **DevOps | Workflows GitHub & Dependabot**
 
-<div align="center">
+- **GitHub Actions** : Intégration et déploiement automatiques (CI/CD)
+- **Dependabot** : Mises à jour auto' de tes dépendances.  
+- **Badges de status** :  
+  Ajoute dans la section des badges un badge Actions pour la CI/CD :
+  ``markdown
+  [![Build and Deploy to IKS](https://github.com/Drag0n69/Drag0n69/actions/workflows/ibm.yml/badge.svg)](https://github.com/Drag0n69/Drag0n69/actions/workflows/ibm.yml)
+  [![CodeQL Advanced](https://github.com/Drag0n69/Drag0n69/actions/workflows/codeql.yml/badge.svg)](https://github.com/Drag0n69/Drag0n69/actions/workflows/codeql.yml)
+  [![PR Check](https://github.com/Drag0n69/Drag0n69/actions/workflows/pr-check.yml/badge.svg)](https://github.com/Drag0n69/Drag0n69/actions/workflows/pr-check.yml)
+  ![CI](https://github.com/Drag0n69/MonSuperBot/actions/workflows/ci.yml/badge.svg)
+  [![Build and Deploy to IKS](https://github.com/Drag0n69/Drag0n69/actions/workflows/ibm.yml/badge.svg)](https://github.com/Drag0n69/Drag0n69/actions/workflows/ibm.yml)
+  ```
+  ```markdown
+  ![CI](https://github.com/Drag0n69/MonSuperBot/actions/workflows/ci.yml/badge.svg)
+  ```
+  Vérifie le nom du workflow et adapte le chemin.
 
-| 🧬 Couche | 🛠️ Technologies Clés (Cells) | 📝 Fonction dans le Hive |
-| :--- | :--- | :--- |
-| **Cognition (The Swarm)** | <img src="https://img.shields.io/badge/OpenClaw-00FFCC?style=flat-square&logo=githubactions&logoColor=0d1117&color=0d1117"/> <img src="https://img.shields.io/badge/Gemini_2.0-00FFCC?style=flat-square&logo=google-gemini&logoColor=0d1117&color=0d1117"/> | Agents IA autonomes, résolution de bugs, vibe coding, orchestration. |
-| **Mémoire (The Nexus)** | <img src="https://img.shields.io/badge/OpenMediaVault-BF00FF?style=flat-square&logo=linux&logoColor=white&color=0d1117"/> <img src="https://img.shields.io/badge/PostgreSQL-BF00FF?style=flat-square&logo=postgresql&logoColor=white&color=0d1117"/> | Cerveau externe local-first, stockage persistant des logs d'agents. |
-| **Exécution (The Cells)** | <img src="https://img.shields.io/badge/Docker-00FFCC?style=flat-square&logo=docker&logoColor=0d1117&color=0d1117"/> <img src="https://img.shields.io/badge/GCloud_Run-00FFCC?style=flat-square&logo=google-cloud&logoColor=0d1117&color=0d1117"/> <img src="https://img.shields.io/badge/WSL_2-00FFCC?style=flat-square&logo=windows-terminal&logoColor=0d1117&color=0d1117"/> | Conteneurs éphémères pour l'exécution du code généré par l'essaim. |
-| **Réseau (The Mycelium)**| <img src="https://img.shields.io/badge/OpenVPN-BF00FF?style=flat-square&logo=openvpn&logoColor=white&color=0d1117"/> <img src="https://img.shields.io/badge/GitHub_API-BF00FF?style=flat-square&logo=github&logoColor=white&color=0d1117"/> | Tunnels chiffrés et source de vérité (Git) pour l'ensemble du réseau. |
+---
 
-</div>
+## 🔗 **Liens & Réseaux**
 
-<hr style="border: 1px dashed #BF00FF; width: 80%;">
+<p align="center">
+  <a href="mailto: jordan.zerathe@gmail.com"><img src="https://img.shields.io/badge/Mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  <a href="https://linkedin.com/in/jordan-zerathe"><img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white&style=for-the-badge"></a>
+  <a href="https://x.com/JordanZera76441"><img src="https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter&logoColor=white&style=for-the-badge"></a>
+  <!-- ajoute ce que tu veux -->
+</p>
 
-### 📊 Télémétrie du Réseau Neural (Stats 2026)
-*Analyse en temps réel des impulsions sur le réseau GitHub.*
+---
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Drag0n69&show_icons=true&hide_border=true&title_color=00FFCC&icon_color=BF00FF&text_color=a9b2c3&bg_color=0d1117&rank_icon=github&count_private=true&include_all_commits=true" alt="GitHub Stats" width="48%" style="margin-right: 2%;" />
-  
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Drag0n69&theme=dark&hide_border=true&background=0d1117&ring=00FFCC&fire=BF00FF&currStreakNum=a9b2c3&sideNums=a9b2c3&currStreakLabel=00FFCC&sideLabels=a9b2c3&dates=a9b2c3" alt="GitHub Streak" width="48%" />
+## 📚 **Ressources / Docs**
 
-  <br><br>
+- [Documentation principale](https://github.com/Myxelium-Corp/Myxelium-Doc)  
+- [Blog](https://drag0n69.github.io/blog)
+- [Templates & cheatsheets](./cheatsheet.md)
 
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Drag0n69&layout=compact&hide_border=true&title_color=00FFCC&text_color=a9b2c3&bg_color=0d1117&icon_color=BF00FF" alt="Top Langs" width="48%" style="margin-right: 2%;" />
-  
-  <img src="https://custom-icon-badges.demolab.com/github/stars/Drag0n69?color=0d1117&labelColor=00FFCC&logo=star&logoColor=111&style=for-the-badge&label=Spore%20Stars" alt="Stars" width="48%" />
-</div>
+---
 
-<br>
-
-<div align="center">
-  <img src="https://img.shields.io/badge/Alerte-Nouvelle%20Spore%20D%C3%A9tect%C3%A9e-0d1117?style=for-the-badge&logo=dependabot&logoColor=BF00FF&color=0d1117&labelColor=00FFCC" />
-</div>
+<p align="center">
+  <i>🤝 Merci pour la visite ! N’hésite pas à suivre, forker, ou contribuer 🔥</i>
+</p>
