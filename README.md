@@ -129,7 +129,7 @@ Plateforme de multi-agents IA biomimétique — orchestration en essaim, inspir�
 
 <!-- Le SVG est généré par GitHub Actions — voir .github/workflows/snake.yml -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Drag0n69/Drag0n69/output/github-contribution-grid-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" />
 </p>
 
 ---
