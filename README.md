@@ -11,7 +11,29 @@
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&pause=1000&color=00FF9C&center=true&vCenter=true&width=620&lines=Founder+of+Myxelium-Corp+%F0%9F%8D%84;Multi-Agent+AI+Orchestration+Platform;LangGraph+%7C+Fastify+%7C+Redis+%7C+Docker;Building+the+Mycelium+OS+swarm..." alt="Typing SVG" />
 </p>
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--                     🧠 BANNIÈRE PRINCIPALE                      -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Jordan%20Zerathe&fontSize=65&fontColor=fff&animation=twinkling&fontAlignY=38&desc=AI%20Architect%20%7C%20Multi-Agent%20Orchestration%20%7C%20Mycelium%20OS%20%F0%9F%8D%84&descAlignY=62&descSize=20" width="100%" />
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--                     🧠 TYPING ANIMATION                         -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&pause=1000&color=00FF9C&center=true&vCenter=true&width=650&lines=Mycelium+OS+Founder+%F0%9F%8D%84;Multi-Agent+AI+Orchestration+System;GitHub+as+Living+Cognitive+Infrastructure;Claude+%7C+Gemini+%7C+GPT+Swarm+Connected" />
+</p>
+
+---
+
+## 🧠 SYSTEM IDENTITY
+
+```txt
+Operator : Jordan Zerathe (Drag0n69)
+Role     : Human-in-the-loop System Gatekeeper
+System   : Mycelium OS (AI Cognitive Infrastructure)
+Mode     : Multi-Agent Distributed Intelligence
 <!-- ═══════════════════════════════════════════════════════════════ -->
 <!--                        BADGES RAPIDES                          -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
