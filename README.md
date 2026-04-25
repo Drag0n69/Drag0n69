@@ -115,7 +115,7 @@ Plateforme de multi-agents IA biomimétique — orchestration en essaim, inspir�
 
 <!-- ⚠️  Trophées -->
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Drag0n69&theme=darkhub&no-frame=true&column=7&margin-w=4" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Drag0n69" />
 </p>
 
 <!-- ⚠️  Graphe d'activité — URL CORRIGÉE (cyclic.app est mort) -->
