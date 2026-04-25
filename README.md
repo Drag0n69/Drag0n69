@@ -30,7 +30,7 @@
     <img src="https://img.shields.io/badge/Org-Myxelium--Corp-00FF9C?style=flat-square&logo=github&labelColor=1a1a2e" />
   </a>
 </p>
-
+[![PR Check](https://github.com/Drag0n69/Drag0n69/actions/workflows/pr-check.yml/badge.svg)](https://github.com/Drag0n69/Drag0n69/actions/workflows/pr-check.yml)
 ---
 
 ## 👾 Qui suis-je ?
