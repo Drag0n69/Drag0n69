@@ -112,10 +112,16 @@ Plateforme de multi-agents IA biomimétique — orchestration en essaim, inspir�
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=Drag0n69&theme=merko&hide_border=true&date_format=j%20M%5B%20Y%5D" />
 </p>
-
-<!-- ⚠️  Trophées -->
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Drag0n69&theme=darkhub&no-frame=true&column=7&margin-w=4" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Drag0n69&theme=github_dark" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Drag0n69&theme=github_dark" />
+</p>
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Drag0n69&theme=github_dark" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Drag0n69&theme=github_dark" />
 </p>
 
 <!-- ⚠️  Graphe d'activité — URL CORRIGÉE (cyclic.app est mort) -->
@@ -131,6 +137,13 @@ Plateforme de multi-agents IA biomimétique — orchestration en essaim, inspir�
 <p align="center">
   <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" />
 </p>
+
+## 🧭 Now
+
+- 🔭 Building **Mycelium OS (Phase 2: Memory + Agents)**
+- 🧠 Designing distributed AI protocols (MUL)
+- ⚡ Exploring multi-LLM orchestration
+- 🧪 Running experiments on emergent behaviors
 
 ---
 
@@ -148,6 +161,24 @@ Plateforme de multi-agents IA biomimétique — orchestration en essaim, inspir�
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" height="38" title="GCP"/>&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="38" title="GitHub"/>
 </p>
+
+## 🚀 Featured Projects
+
+### 🍄 Mycelium OS
+> Multi-agent orchestration system inspired by fungal networks
+
+- 🧠 LangGraph swarm architecture
+- ⚡ Distributed execution via Redis
+- 🔗 Multi-LLM coordination (Claude, Gemini, GPT)
+
+👉 https://github.com/Myxelium-Corp/Mycelium-AI-core
+
+---
+
+### 🧪 Experiments Lab
+> Sandbox for agent behaviors & emergent systems
+
+👉 https://github.com/Myxelium-Corp
 
 ---
 
