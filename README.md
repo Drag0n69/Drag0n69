@@ -150,5 +150,19 @@ Plateforme de multi-agents IA biomimétique — orchestration en essaim, inspir�
 </p>
 
 ---
+<div align="center">
+  <img src="lien_vers_ta_banniere_mystique.png" width="100%" />
+  
+  # 🌌 Architecte de Données | Tisseur de Code 🍄
+  
+  <p align="center">
+    <img src="https://img.shields.io/badge/Symbiose-Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" />
+    <img src="https://img.shields.io/badge/Écosystème-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  </p>
+</div>
 
+### 🧬 Mes Statistiques Vitales (Mise à jour autonome)
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=TonPseudo&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117" />
+</div>
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%" />
