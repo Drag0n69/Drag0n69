@@ -163,6 +163,6 @@ Plateforme de multi-agents IA biomimétique — orchestration en essaim, inspir�
 
 ### 🧬 Mes Statistiques Vitales (Mise à jour autonome)
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=TonPseudo&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Drag0n69&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117" />
 </div>
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%" />
