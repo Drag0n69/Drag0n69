@@ -151,7 +151,6 @@ Plateforme de multi-agents IA biomimétique — orchestration en essaim, inspir�
 
 ---
 <div align="center">
-  <img src="lien_vers_ta_banniere_mystique.png" width="100%" />
   
   # 🌌 Architecte de Données | Tisseur de Code 🍄
   
