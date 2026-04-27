@@ -1,20 +1,8 @@
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!--                     BANNIÈRE PRINCIPALE                        -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Jordan%20Zerathe&fontSize=65&fontColor=fff&animation=twinkling&fontAlignY=38&desc=AI%20Architect%20%7C%20Multi-Agent%20Orchestration%20%7C%20Builder%20%F0%9F%8D%84&descAlignY=62&descSize=20" width="100%" />
-
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!--                     TYPING ANIMATION                           -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&pause=1000&color=00FF9C&center=true&vCenter=true&width=620&lines=Founder+of+Myxelium-Corp+%F0%9F%8D%84;Multi-Agent+AI+Orchestration+Platform;LangGraph+%7C+Fastify+%7C+Redis+%7C+Docker;Building+the+Mycelium+OS+swarm..." alt="Typing SVG" />
 </p>
-
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!--                        BADGES RAPIDES                          -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
 
 <p align="center">
   <a href="https://github.com/Drag0n69">
@@ -32,23 +20,19 @@
 </p>
 
 ---
+<div align="center">
+  
 # Hi 👋, I'm Jordan Zerathe
-### Salut , moi c'est Jordan Zerathe ( Aka Drag0n69 )
+### Salut, moi c'est Jordan Zerathe (Aka Drag0n69)
+
+</div>
 
 ## 👾 Qui suis-je ?
 
-```terminal
-> whoami
-Jordan Zerathe | @Drag0n69 | Fréjus, France
-
-> cat mission.txt
-Fondateur de Myxelium-Corp — plateforme d'orchestration multi-agents IA.
-Architecture de swarms intelligents inspirée des réseaux mycorhiziens.
-Claude · Gemini · ChatGPT · NotebookLM — tous coordonnés, tous vivants.
-
-> echo $PHILOSOPHY
-"Un système décentralisé n'a pas besoin de chef — il a besoin de protocole."
-```
+* 📍 **Base d'opérations :** Fréjus, France
+* 🍄 **Mission :** Fondateur de **Myxelium-Corp** — une plateforme d'orchestration multi-agents IA.
+* 🧠 **Vision :** Créer une architecture de swarms intelligents inspirée des réseaux mycorhiziens. (Claude · Gemini · ChatGPT · NotebookLM — tous coordonnés, tous vivants).
+* 📜 **Philosophie :** *"Un système décentralisé n'a pas besoin de chef — il a besoin de protocole."*
 
 ---
 
@@ -104,7 +88,7 @@ Plateforme de multi-agents IA biomimétique — orchestration en essaim, inspir�
 
 ---
 
-## 📊 GitHub Stats
+## 📊 Activité & Statistiques
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Drag0n69&show_icons=true&theme=merko&hide_border=true&count_private=true&include_all_commits=true" height="155px"/>
@@ -115,40 +99,16 @@ Plateforme de multi-agents IA biomimétique — orchestration en essaim, inspir�
   <img src="https://streak-stats.demolab.com/?user=Drag0n69&theme=merko&hide_border=true&date_format=j%20M%5B%20Y%5D" />
 </p>
 
-<!-- ⚠️  Trophées -->
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Drag0n69&theme=darkhub&no-frame=true&column=7&margin-w=4" />
-</p>
-
-<!-- ⚠️  Graphe d'activité — URL CORRIGÉE (cyclic.app est mort) -->
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Drag0n69&bg_color=0d1117&color=00FF9C&line=00cc7a&point=ffffff&hide_border=true&area=true" />
 </p>
 
 ---
 
-## 🐍 Contribution Graph
+## 🐍 Contribution Graph (Snake)
 
-<!-- Le SVG est généré par GitHub Actions — voir .github/workflows/snake.yml -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" />
-</p>
-
----
-
-## 🛠 Icônes Stack
-
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="38" title="Linux"/>&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="38" title="Python"/>&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="38" title="TypeScript"/>&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" height="38" title="Node.js"/>&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg" height="38" title="Docker"/>&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original-wordmark.svg" height="38" title="Redis"/>&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" height="38" title="PostgreSQL"/>&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg" height="38" title="Firebase"/>&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" height="38" title="GCP"/>&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="38" title="GitHub"/>
 </p>
 
 ---
@@ -162,8 +122,4 @@ Plateforme de multi-agents IA biomimétique — orchestration en essaim, inspir�
   </p>
 </div>
 
-### 🧬 Mes Statistiques Vitales (Mise à jour autonome)
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Drag0n69&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117" />
-</div>
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%" />
