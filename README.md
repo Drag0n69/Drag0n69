@@ -32,6 +32,8 @@
 </p>
 
 ---
+# Hi 👋, I'm Jordan Zerathe
+### Salut , moi c'est Jordan Zerathe ( Aka Drag0n69 )
 
 ## 👾 Qui suis-je ?
 
