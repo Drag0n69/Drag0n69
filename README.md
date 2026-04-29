@@ -1,7 +1,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Jordan%20Zerathe&fontSize=65&fontColor=fff&animation=twinkling&fontAlignY=38&desc=AI%20Architect%20%7C%20Multi-Agent%20Orchestration%20%7C%20Builder%20%F0%9F%8D%84&descAlignY=62&descSize=20" width="100%" />
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&pause=1000&color=00FF9C&center=true&vCenter=true&width=620&lines=Founder+of+Myxelium-Corp+%F0%9F%8D%84;Multi-Agent+AI+Orchestration+Platform;LangGraph+%7C+Fastify+%7C+Redis+%7C+Docker;Building+the+Mycelium+OS+swarm..." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&pause=1000&color=00FF9C&center=true&vCenter=true&width=640&lines=Founder+of+Myxelium-Corp+%F0%9F%8D%84;Multi-Agent+AI+Orchestration+Platform;Vue3+%7C+TypeScript+%7C+Docker+%7C+GCP;Building+the+Mycelium+OS+swarm...;Zero+Trust+%7C+Human+In+The+Loop+%E2%9C%85" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -20,23 +20,29 @@
 </p>
 
 ---
+
 <div align="center">
-  
-# Hi 👋, I'm Jordan Zerathe
-### Salut, moi c'est Jordan Zerathe (Aka Drag0n69)
+
+# 👋 Hi, I'm Jordan Zerathe
+### Salut, moi c'est Jordan (aka **Drag0n69**)
+**🌍 Fréjus, France** · **🍄 Fondateur de [Myxelium-Corp](https://github.com/Myxelium-Corp)**
 
 </div>
 
-## 👾 Qui suis-je ?
+---
 
-* 📍 **Base d'opérations :** Fréjus, France
-* 🍄 **Mission :** Fondateur de **Myxelium-Corp** — une plateforme d'orchestration multi-agents IA.
-* 🧠 **Vision :** Créer une architecture de swarms intelligents inspirée des réseaux mycorhiziens. (Claude · Gemini · ChatGPT · NotebookLM — tous coordonnés, tous vivants).
-* 📜 **Philosophie :** *"Un système décentralisé n'a pas besoin de chef — il a besoin de protocole."*
+## 🧬 Qui suis-je ?
+
+- 🏠 **Base d'opérations :** Fréjus, France
+- 🚀 **Mission :** Fondateur de **Myxelium-Corp** — plateforme d'orchestration multi-agents IA
+- 🌐 **Vision :** Créer une architecture de swarms intelligents inspirée des réseaux mycorhiziens
+- 🤖 **Stack IA :** Claude · Gemini · ChatGPT · NotebookLM — tous coordonnés, tous vivants
+- 🎮 **Side Quest :** World of Warcraft, gaming, homelab & sysadmin
+- 💡 **Philosophie :** *"Un système décentralisé n'a pas besoin de chef — il a besoin de protocole."*
 
 ---
 
-## 🍄 Myxelium-Corp — Mon Organisation
+## 🏢 Myxelium-Corp — Mon Organisation
 
 > [**github.com/Myxelium-Corp**](https://github.com/Myxelium-Corp)
 
@@ -52,74 +58,106 @@ Plateforme de multi-agents IA biomimétique — orchestration en essaim, inspir�
 
 ---
 
-## ⚡ Stack Technique
+## ☁️ Infrastructure Live
 
-**🤖 AI & Agents**
+```
+🌌 Cloud Run (Google Cloud — us-west1)
+├── 🟢 antigravity-os          → https://antigravity-os-mpcevc6yya-uw.a.run.app
+├── 🟢 mycelium-brain-dashboard → Dashboard IA en production
+├── 🟢 nexus-master-dashboard  → Cockpit principal
+├── 🟢 mycelium-os-architect   → Agent architecture
+└── 🟢 mycelium-os-v6          → Runtime v6
 
-![Claude](https://img.shields.io/badge/Claude-Anthropic-CC6B00?style=flat-square&logo=anthropic&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-StateGraph-00FF9C?style=flat-square&labelColor=1a1a2e)
-![Gemini](https://img.shields.io/badge/Gemini-Google-4285F4?style=flat-square&logo=google&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-ChatGPT-412991?style=flat-square&logo=openai&logoColor=white)
-
-**🔧 Backend & Runtime**
-
-![Node.js](https://img.shields.io/badge/Node.js-20-339933?style=flat-square&logo=node.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Fastify](https://img.shields.io/badge/Fastify-API-000000?style=flat-square&logo=fastify&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white)
-
-**🏗️ Infrastructure**
-
-![Docker](https://img.shields.io/badge/Docker-Desktop-2496ED?style=flat-square&logo=docker&logoColor=white)
-![WSL2](https://img.shields.io/badge/WSL2-Ubuntu%2024-E95420?style=flat-square&logo=ubuntu&logoColor=white)
-![Tailscale](https://img.shields.io/badge/Tailscale-Mesh%20VPN-0F4B8C?style=flat-square&logo=tailscale&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-Pub%2FSub-DC382D?style=flat-square&logo=redis&logoColor=white)
-
-**🗄️ Data**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-Auth%20%7C%20Firestore-FFCA28?style=flat-square&logo=firebase&logoColor=black)
-
-**☁️ Cloud & DevOps**
-
-![GCP](https://img.shields.io/badge/Google_Cloud-3_Projects-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI%2FCD-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Starlink](https://img.shields.io/badge/Network-Starlink-1d1d1d?style=flat-square&logo=spacex&logoColor=white)
+🏠 Homelab (Intel i5-3450 / Ubuntu Server)
+├── 🎬 Jellyfin      — Media Server
+├── 📁 FileBrowser   — NAS local
+├── 🔒 WireGuard     — VPN
+└── 🌐 Cloudflare Zero Trust — Accès sécurisé
+```
 
 ---
 
-## 📊 Activité & Statistiques
+## 🛠️ Tech Stack
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Drag0n69&show_icons=true&theme=merko&hide_border=true&count_private=true&include_all_commits=true" height="155px"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Drag0n69&layout=compact&theme=merko&hide_border=true&count_private=true" height="155px"/>
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=Drag0n69&theme=merko&hide_border=true&date_format=j%20M%5B%20Y%5D" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Drag0n69&bg_color=0d1117&color=00FF9C&line=00cc7a&point=ffffff&hide_border=true&area=true" />
+<p align="left">
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" />
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
+  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" />
+  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" />
+  <img src="https://img.shields.io/badge/WireGuard-88171A?style=for-the-badge&logo=wireguard&logoColor=white" />
 </p>
 
 ---
 
-## 🐍 Contribution Graph (Snake)
+## 🌐 Socials
+
+<p align="left">
+  <a href="https://github.com/Drag0n69" target="_blank" rel="noreferrer">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" />
+      <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" />
+    </picture>
+  </a>&nbsp;
+  <a href="https://www.youtube.com/@Drag0n69_RSA" target="_blank" rel="noreferrer">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/youtube-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/youtube.svg" />
+      <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/youtube.svg" width="32" height="32" />
+    </picture>
+  </a>&nbsp;
+  <a href="https://x.com/JordanZera76441" target="_blank" rel="noreferrer">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" />
+      <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" />
+    </picture>
+  </a>&nbsp;
+  <a href="https://www.facebook.com/jordan.zerathe/" target="_blank" rel="noreferrer">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/facebook-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/facebook.svg" />
+      <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/facebook.svg" width="32" height="32" />
+    </picture>
+  </a>
+</p>
+
+### 📫 Comment me contacter
+
+- 📺 **YouTube :** [youtube.com/@Drag0n69_RSA](https://www.youtube.com/@Drag0n69_RSA)
+- 🐦 **Twitter/X :** [x.com/JordanZera76441](https://x.com/JordanZera76441)
+- 👤 **Facebook :** [facebook.com/jordan.zerathe](https://www.facebook.com/jordan.zerathe/)
+- 🐙 **GitHub Org :** [github.com/Myxelium-Corp](https://github.com/Myxelium-Corp)
+
+---
+
+## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Drag0n69&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00FF9C&icon_color=00FF9C&text_color=ffffff" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Drag0n69&theme=tokyonight&hide_border=true&background=0d1117&ring=00FF9C&fire=00FF9C&currStreakLabel=00FF9C" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Drag0n69&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00FF9C&text_color=ffffff&langs_count=8" width="48%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Drag0n69&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=00FF9C&line=00FF9C&point=ffffff" width="48%" />
 </p>
 
 ---
-<div align="center">
-  
-  # 🌌 Architecte de Données | Tisseur de Code 🍄
-  
-  <p align="center">
-    <img src="https://img.shields.io/badge/Symbiose-Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" />
-    <img src="https://img.shields.io/badge/Écosystème-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-  </p>
-</div>
+
+## 🔨 Projets Récents
+
+- [Myxelium-Corp/Mycelium-AI-core](https://github.com/Myxelium-Corp/Mycelium-AI-core) — Core de l'IA Mycelium : agents, workflows OMEGA, Firebase
+- [Myxelium-Corp/Mycelium-Dev](https://github.com/Myxelium-Corp/Mycelium-Dev) — Monorepo : cockpit-v2 (Vue3), core-api (Express+TS), infra Docker
+- [Drag0n69/cockpit-tools](https://github.com/Drag0n69/cockpit-tools) — Gestionnaire universel d'outils AI IDE (Tauri + Vite)
+- [Drag0n69/Fusion](https://github.com/Drag0n69/Fusion) — Multi-node agent orchestrator
+- [Drag0n69/Atlas](https://github.com/Drag0n69/Atlas) — Modification Windows optimisée (performance, privacy)
+
+---
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%" />
