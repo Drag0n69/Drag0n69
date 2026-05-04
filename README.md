@@ -161,3 +161,161 @@ Plateforme de multi-agents IA biomimétique — orchestration en essaim, inspir�
 ---
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%" />
+div align="center">
+  <h1>🍄 Mycelium OS</h1>
+  <h3>AI Orchestration System · Multi-Agent Swarm · Zero Trust</h3>
+  <p>Système d’intelligence distribuée inspiré des réseaux mycéliens 🌐</p>
+</div>
+
+<hr>
+
+<h2>👋 Jordan Zerathe (Drag0n69)</h2>
+
+<p><b>Architecte IA · Builder système · Fondateur Myxelium-Corp</b></p>
+
+<ul>
+  <li>📍 France</li>
+  <li>🏢 Organisation : https://github.com/Myxelium-Corp</li>
+</ul>
+
+<hr>
+
+<h2>🧬 Mycelium OS — Vision</h2>
+
+<p>
+Un système d’orchestration pour agents IA autonomes.
+</p>
+
+<ul>
+  <li>🧠 Multi-agents coordonnés</li>
+  <li>⚡ Workflows distribués (event-driven)</li>
+  <li>☁️ Cloud-native (GCP / Docker / Kubernetes-ready)</li>
+  <li>🔐 Architecture Zero Trust</li>
+  <li>💾 Mémoire persistante des agents</li>
+</ul>
+
+<hr>
+
+<h2>🧠 Architecture système</h2>
+
+<pre>
+GitHub → CI/CD → Docker → Cloud Run / Kubernetes
+                     ↓
+              Mycelium Runtime
+                     ↓
+   NEXUS (brain) → HIVE (agents) → SWARM (exec)
+                     ↓
+               LLM Providers
+</pre>
+
+<hr>
+
+<h2>☁️ Infrastructure</h2>
+
+<h3>Cloud</h3>
+<ul>
+  <li>Google Cloud Run</li>
+  <li>Docker containers</li>
+  <li>Event-driven execution</li>
+</ul>
+
+<h3>Homelab</h3>
+<ul>
+  <li>Ubuntu Server</li>
+  <li>Jellyfin</li>
+  <li>FileBrowser NAS</li>
+  <li>WireGuard VPN</li>
+  <li>Cloudflare Zero Trust</li>
+</ul>
+
+<hr>
+
+<h2>🔐 Sécurité</h2>
+
+<ul>
+  <li>Zero Trust network</li>
+  <li>Isolation des containers</li>
+  <li>Authentification OAuth / Service Accounts</li>
+  <li>Accès sécurisé via VPN</li>
+</ul>
+
+<hr>
+
+<h2>🤖 Stack IA</h2>
+
+<ul>
+  <li>Claude → raisonnement</li>
+  <li>Gemini → orchestration système</li>
+  <li>ChatGPT → interaction</li>
+  <li>NotebookLM → knowledge base</li>
+  <li>Agents locaux → exécution</li>
+</ul>
+
+<hr>
+
+<h2>🧰 Stack technique</h2>
+
+<ul>
+  <li>TypeScript / Node.js</li>
+  <li>Vue 3</li>
+  <li>Python</li>
+  <li>Docker</li>
+  <li>Google Cloud</li>
+  <li>Firebase</li>
+  <li>Redis</li>
+  <li>LangGraph</li>
+</ul>
+
+<hr>
+
+<h2>🏗️ Projets</h2>
+
+<ul>
+  <li>🧠 Mycelium AI Core</li>
+  <li>🖥️ Cockpit UI</li>
+  <li>⚙️ Fusion Engine</li>
+  <li>🪐 Atlas System</li>
+</ul>
+
+<hr>
+
+<h2>🎯 Focus actuel</h2>
+
+<ul>
+  <li>Stabilisation Mycelium OS v6</li>
+  <li>Scaling des agents</li>
+  <li>Browser agent sécurisé</li>
+  <li>Kubernetes migration</li>
+</ul>
+
+<hr>
+
+<h2>🔮 Vision</h2>
+
+<p>
+Créer un système où les agents IA fonctionnent comme un réseau biologique autonome.
+</p>
+
+<ul>
+  <li>Pas de serveur central unique</li>
+  <li>Coordination distribuée</li>
+  <li>Auto-organisation</li>
+  <li>Human-in-the-loop obligatoire</li>
+</ul>
+
+<hr>
+
+<h2>📫 Contact</h2>
+
+<ul>
+  <li>GitHub : https://github.com/Drag0n69</li>
+  <li>Org : https://github.com/Myxelium-Corp</li>
+</ul>
+
+<hr>
+
+<h2>⚡ Philosophie</h2>
+
+<blockquote>
+"A system doesn’t need a leader. It needs protocols."
+</blockquote>
