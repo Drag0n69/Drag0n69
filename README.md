@@ -139,8 +139,9 @@ Plateforme de multi-agents IA biomimétique — orchestration en essaim, inspir�
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Drag0n69&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00FF9C&icon_color=00FF9C&text_color=ffffff" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Drag0n69&theme=tokyonight&hide_border=true&background=0d1117&ring=00FF9C&fire=00FF9C&currStreakLabel=00FF9C" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Drag0n69&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00FF9C&icon_color=00FF9C&text_color=ffffff" width="48%" /> </br >
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Drag0n69&theme=tokyonight&hide_border=true&background=0d1117&ring=00FF9C&fire=00FF9C&currStreakLabel=00FF9C" width="48%" /> </br >
+  <img src="https://github-profile-trophy.vercel.app/?username=Drag0n69&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00FF9C&icon_color=00FF9C&text_color=ffffff" width="48%" " />
 </p>
 
 <p align="center">
