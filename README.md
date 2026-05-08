@@ -405,7 +405,7 @@ Homelab (DRAGON — Windows 11 + WSL2/Ubuntu 24.04)
 
 ---
 [![PR Check](https://github.com/Drag0n69/Drag0n69/actions/workflows/pr-check.yml/badge.svg)](https://github.com/Drag0n69/Drag0n69/actions/workflows/pr-check.yml)
-
+[![CodeQL Advanced](https://github.com/Drag0n69/Drag0n69/actions/workflows/codeql.yml/badge.svg)](https://github.com/Drag0n69/Drag0n69/actions/workflows/codeql.yml)
  
 ## 📫 Contact
 
