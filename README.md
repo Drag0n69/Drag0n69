@@ -403,7 +403,9 @@ Homelab (DRAGON — Windows 11 + WSL2/Ubuntu 24.04)
 - Kubernetes migration
 
 ---
+[![PR Check](https://github.com/Drag0n69/Drag0n69/actions/workflows/pr-check.yml/badge.svg)](https://github.com/Drag0n69/Drag0n69/actions/workflows/pr-check.yml)
 
+ 
 ## 📫 Contact
 
 - 🐙 GitHub : [github.com/Drag0n69](https://github.com/Drag0n69)
