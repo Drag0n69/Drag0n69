@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" role="img" aria-labelledby="title description">
+  <title id="title">Mycelium network footer</title>
+  <desc id="description">A subtle branching network closing the profile with the phrase build with intent.</desc>
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#087f62"/><stop offset=".55" stop-color="#0969da"/><stop offset="1" stop-color="#8250df"/></linearGradient>
+  </defs>
+  <style>.mono { font-family: "Cascadia Code", "SFMono-Regular", Consolas, monospace; }</style>
+  <rect width="1200" height="120" rx="20" fill="#f6f8fa"/>
+  <g fill="none" stroke="url(#line)" stroke-linecap="round">
+    <path d="M0 76C170 18 320 104 495 60S830 16 1200 70" opacity=".55"/>
+    <path d="M0 94C220 50 330 126 560 72S916 46 1200 88" opacity=".28"/>
+  </g>
+  <circle cx="495" cy="60" r="4" fill="#087f62"/>
+  <circle cx="804" cy="38" r="4" fill="#0969da"/>
+  <rect x="452" y="28" width="296" height="38" rx="19" fill="#ffffff" stroke="#cbd8d5"/>
+  <text x="600" y="52" text-anchor="middle" class="mono" fill="#17202d" font-size="12" font-weight="650" letter-spacing="2">BUILD WITH INTENT // STAY HUMAN</text>
+  <rect x="1" y="1" width="1198" height="118" rx="19" fill="none" stroke="#cbd8d5"/>
+</svg>

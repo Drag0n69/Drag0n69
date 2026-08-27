@@ -1,0 +1,19 @@
+{
+  "username": "Drag0n69",
+  "name": "Jordan Zerathe",
+  "identity": "MYCELIUM BUILDER",
+  "headline": "AI AGENTS  ·  LOCAL-FIRST SYSTEMS  ·  HOMELAB",
+  "statement": "BUILDING SOVEREIGN TOOLS WHERE HUMANS STAY IN CONTROL",
+  "stack": [
+    { "label": "TypeScript", "color": "#3178c6" },
+    { "label": "Python", "color": "#ffd343" },
+    { "label": "Vue", "color": "#42b883" },
+    { "label": "Bun", "color": "#fbf0df" },
+    { "label": "Node.js", "color": "#5fa04e" },
+    { "label": "Docker", "color": "#2496ed" },
+    { "label": "PostgreSQL", "color": "#4169e1" },
+    { "label": "Redis", "color": "#ff4438" },
+    { "label": "Google Cloud", "color": "#4285f4" },
+    { "label": "Cloudflare", "color": "#f48120" }
+  ]
+}

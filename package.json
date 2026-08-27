@@ -1,0 +1,13 @@
+{
+  "name": "drag0n69-profile",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/generate-profile.mjs",
+    "refresh": "node scripts/generate-profile.mjs --refresh-stats",
+    "check": "node scripts/validate-profile.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
