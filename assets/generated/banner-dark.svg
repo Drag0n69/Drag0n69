@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title description">
-  <title id="title">Jordan Zerathe — MYCELIUM BUILDER</title>
-  <desc id="description">An animated bioluminescent mycelium network representing local-first AI systems and human control.</desc>
+  <title id="title">Jordan Zerathe — CONSTRUCTEUR MYCELIUM</title>
+  <desc id="description">Un réseau Mycelium bioluminescent et animé représentant des systèmes IA local-first sous contrôle humain.</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#070b14"/>
@@ -44,14 +44,14 @@
   <circle cx="1040" cy="170" r="250" fill="url(#glow)"/>
   <path d="M42 40H246" stroke="url(#signal)" stroke-width="3" stroke-linecap="round"/>
   <circle cx="42" cy="40" r="5" fill="#20d69f" filter="url(#soft-glow)"/>
-  <text x="72" y="93" class="mono" fill="#20d69f" font-size="16" font-weight="700" letter-spacing="3">DRAG0N69 // MYCELIUM BUILDER</text>
+  <text x="72" y="93" class="mono" fill="#20d69f" font-size="16" font-weight="700" letter-spacing="3">DRAG0N69 // CONSTRUCTEUR MYCELIUM</text>
   <text x="68" y="169" class="sans" fill="#f0f6fc" font-size="54" font-weight="750" letter-spacing="-1.2">JORDAN ZERATHE</text>
-  <text x="72" y="214" class="mono" fill="#8b9bb4" font-size="17" letter-spacing="1.6">AI AGENTS  ·  LOCAL-FIRST SYSTEMS  ·  HOMELAB</text>
+  <text x="72" y="214" class="mono" fill="#8b9bb4" font-size="17" letter-spacing="1.6">AGENTS IA  ·  SYSTÈMES LOCAL-FIRST  ·  HOMELAB</text>
   <g transform="translate(72 258)">
-    <rect width="520" height="50" rx="25" fill="#0d1624" stroke="#24344d"/>
+    <rect width="610" height="50" rx="25" fill="#0d1624" stroke="#24344d"/>
     <circle cx="25" cy="25" r="6" fill="#20d69f" filter="url(#soft-glow)"/>
-    <text x="44" y="31" class="mono" fill="#f0f6fc" font-size="13" font-weight="650" letter-spacing=".7">BUILDING SOVEREIGN TOOLS WHERE HUMANS STAY IN CONTROL</text>
-    <rect class="cursor" x="489" y="17" width="8" height="16" rx="1" fill="#49b9ff"/>
+    <text x="44" y="31" class="mono" fill="#f0f6fc" font-size="12.5" font-weight="650" letter-spacing=".55">CONSTRUIRE DES OUTILS SOUVERAINS, GARDER L&apos;HUMAIN AUX COMMANDES</text>
+    <rect class="cursor" x="579" y="17" width="8" height="16" rx="1" fill="#49b9ff"/>
   </g>
   <g><path class="strand s1" d="M705 80 C790 28 842 54 910 106 S1038 174 1190 92"/>
       <path class="strand s2" d="M680 178 C770 130 824 154 882 214 S1034 310 1195 224"/>
@@ -69,9 +69,9 @@
   </g>
   <g class="mono" font-size="11" fill="#8b9bb4" letter-spacing="1">
     <text x="928" y="101">AGENTS</text>
-    <text x="899" y="237">KNOWLEDGE</text>
+    <text x="899" y="237">CONNAISSANCE</text>
     <text x="1022" y="294">HOMELAB</text>
-    <text x="1087" y="267">HUMAN GATE</text>
+    <text x="1064" y="267">VALIDATION HUMAINE</text>
   </g>
   <rect x="1" y="1" width="1198" height="358" rx="23" fill="none" stroke="#24344d"/>
 </svg>

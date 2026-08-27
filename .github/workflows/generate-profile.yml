@@ -1,4 +1,4 @@
-name: Generate profile assets
+name: Générer les éléments du profil
 
 on:
   workflow_dispatch:
@@ -22,30 +22,30 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out profile repository
+      - name: Récupérer le dépôt du profil
         uses: actions/checkout@v4
 
-      - name: Set up Node.js
+      - name: Installer Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 22
 
-      - name: Refresh public stats and generate SVG assets
+      - name: Actualiser les statistiques et générer les SVG
         run: npm run refresh
         env:
           GITHUB_TOKEN: ${{ github.token }}
 
-      - name: Validate generated profile
+      - name: Valider le profil généré
         run: npm run check
 
-      - name: Commit refreshed assets
+      - name: Enregistrer les éléments actualisés
         run: |
           if git diff --quiet; then
-            echo "Profile assets are already current."
+            echo "Les éléments du profil sont déjà à jour."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets/generated data/public-stats.json
-          git commit -m "chore(profile): refresh public pulse"
+          git commit -m "chore(profile): actualiser le pouls public"
           git push

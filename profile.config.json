@@ -1,9 +1,9 @@
 {
   "username": "Drag0n69",
   "name": "Jordan Zerathe",
-  "identity": "MYCELIUM BUILDER",
-  "headline": "AI AGENTS  ·  LOCAL-FIRST SYSTEMS  ·  HOMELAB",
-  "statement": "BUILDING SOVEREIGN TOOLS WHERE HUMANS STAY IN CONTROL",
+  "identity": "CONSTRUCTEUR MYCELIUM",
+  "headline": "AGENTS IA  ·  SYSTÈMES LOCAL-FIRST  ·  HOMELAB",
+  "statement": "CONSTRUIRE DES OUTILS SOUVERAINS, GARDER L'HUMAIN AUX COMMANDES",
   "stack": [
     { "label": "TypeScript", "color": "#3178c6" },
     { "label": "Python", "color": "#ffd343" },

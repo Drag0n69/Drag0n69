@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" role="img" aria-labelledby="title description">
-  <title id="title">Mycelium network footer</title>
-  <desc id="description">A subtle branching network closing the profile with the phrase build with intent.</desc>
+  <title id="title">Pied de page du réseau Mycelium</title>
+  <desc id="description">Un réseau ramifié discret refermant le profil avec la phrase construire avec intention.</desc>
   <defs>
     <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#20d69f"/><stop offset=".55" stop-color="#49b9ff"/><stop offset="1" stop-color="#a879ff"/></linearGradient>
   </defs>
@@ -13,6 +13,6 @@
   <circle cx="495" cy="60" r="4" fill="#20d69f"/>
   <circle cx="804" cy="38" r="4" fill="#49b9ff"/>
   <rect x="452" y="28" width="296" height="38" rx="19" fill="#0d1624" stroke="#24344d"/>
-  <text x="600" y="52" text-anchor="middle" class="mono" fill="#f0f6fc" font-size="12" font-weight="650" letter-spacing="2">BUILD WITH INTENT // STAY HUMAN</text>
+  <text x="600" y="52" text-anchor="middle" class="mono" fill="#f0f6fc" font-size="12" font-weight="650" letter-spacing="2">CONSTRUIRE AVEC INTENTION // RESTER HUMAIN</text>
   <rect x="1" y="1" width="1198" height="118" rx="19" fill="none" stroke="#24344d"/>
 </svg>

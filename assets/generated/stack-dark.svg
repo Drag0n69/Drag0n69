@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 230" role="img" aria-labelledby="title description">
-  <title id="title">Jordan&apos;s technology toolbox</title>
-  <desc id="description">Ten generated badges for the languages, runtimes, infrastructure and platforms used by Jordan.</desc>
+  <title id="title">Boîte à outils technique de Jordan</title>
+  <desc id="description">Dix badges générés pour les langages, environnements, infrastructures et plateformes utilisés par Jordan.</desc>
   <defs>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#20d69f"/><stop offset=".55" stop-color="#49b9ff"/><stop offset="1" stop-color="#a879ff"/></linearGradient>
   </defs>
   <style>.mono { font-family: "Cascadia Code", "SFMono-Regular", Consolas, monospace; }</style>
   <rect width="1200" height="230" rx="22" fill="#070b14"/>
-  <text x="60" y="48" class="mono" fill="#20d69f" font-size="14" font-weight="700" letter-spacing="3">TOOLBOX // BUILD LAYER</text>
+  <text x="60" y="48" class="mono" fill="#20d69f" font-size="14" font-weight="700" letter-spacing="3">BOÎTE À OUTILS // COUCHE DE CONSTRUCTION</text>
   <path d="M904 43H1140" stroke="url(#accent)" stroke-width="2" stroke-linecap="round"/>
 
       <g transform="translate(60 86)">

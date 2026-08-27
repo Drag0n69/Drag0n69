@@ -65,18 +65,33 @@ async function fetchPublicStats(username) {
     headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
   }
 
-  const response = await fetch(`https://api.github.com/users/${encodeURIComponent(username)}`, { headers });
-  if (!response.ok) {
-    throw new Error(`GitHub API returned ${response.status}: ${await response.text()}`);
-  }
+  const encodedUsername = encodeURIComponent(username);
+  const [user, repositories, pullRequests, issues] = await Promise.all([
+    fetchJson(`https://api.github.com/users/${encodedUsername}`, headers),
+    fetchJson(`https://api.github.com/users/${encodedUsername}/repos?per_page=100&type=public`, headers),
+    fetchJson(`https://api.github.com/search/issues?q=${encodeURIComponent(`author:${username} type:pr`)}`, headers),
+    fetchJson(`https://api.github.com/search/issues?q=${encodeURIComponent(`author:${username} type:issue`)}`, headers)
+  ]);
+  const originalRepositories = repositories.filter((repository) => !repository.fork);
 
-  const user = await response.json();
   return {
     publicRepos: user.public_repos,
+    originalPublicRepos: originalRepositories.length,
+    starsEarned: originalRepositories.reduce((total, repository) => total + repository.stargazers_count, 0),
+    publicPullRequests: pullRequests.total_count,
+    publicIssues: issues.total_count,
     followers: user.followers,
     memberSince: new Date(user.created_at).getUTCFullYear(),
     updatedAt: new Date().toISOString()
   };
+}
+
+async function fetchJson(url, headers) {
+  const response = await fetch(url, { headers });
+  if (!response.ok) {
+    throw new Error(`GitHub API returned ${response.status} for ${url}: ${await response.text()}`);
+  }
+  return response.json();
 }
 
 async function writeSvg(fileName, content) {
@@ -104,7 +119,7 @@ function renderBanner(theme) {
   return `
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title description">
   <title id="title">${escapeXml(config.name)} — ${escapeXml(config.identity)}</title>
-  <desc id="description">An animated bioluminescent mycelium network representing local-first AI systems and human control.</desc>
+  <desc id="description">Un réseau Mycelium bioluminescent et animé représentant des systèmes IA local-first sous contrôle humain.</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="${theme.background}"/>
@@ -152,10 +167,10 @@ function renderBanner(theme) {
   <text x="68" y="169" class="sans" fill="${theme.text}" font-size="54" font-weight="750" letter-spacing="-1.2">${escapeXml(config.name.toUpperCase())}</text>
   <text x="72" y="214" class="mono" fill="${theme.muted}" font-size="17" letter-spacing="1.6">${escapeXml(config.headline)}</text>
   <g transform="translate(72 258)">
-    <rect width="520" height="50" rx="25" fill="${theme.panel}" stroke="${theme.panelBorder}"/>
+    <rect width="610" height="50" rx="25" fill="${theme.panel}" stroke="${theme.panelBorder}"/>
     <circle cx="25" cy="25" r="6" fill="${theme.accent}" filter="url(#soft-glow)"/>
-    <text x="44" y="31" class="mono" fill="${theme.text}" font-size="13" font-weight="650" letter-spacing=".7">${escapeXml(config.statement)}</text>
-    <rect class="cursor" x="489" y="17" width="8" height="16" rx="1" fill="${theme.accentTwo}"/>
+    <text x="44" y="31" class="mono" fill="${theme.text}" font-size="12.5" font-weight="650" letter-spacing=".55">${escapeXml(config.statement)}</text>
+    <rect class="cursor" x="579" y="17" width="8" height="16" rx="1" fill="${theme.accentTwo}"/>
   </g>
   <g>${paths}</g>
   <g filter="url(#soft-glow)">
@@ -169,9 +184,9 @@ function renderBanner(theme) {
   </g>
   <g class="mono" font-size="11" fill="${theme.muted}" letter-spacing="1">
     <text x="928" y="101">AGENTS</text>
-    <text x="899" y="237">KNOWLEDGE</text>
+    <text x="899" y="237">CONNAISSANCE</text>
     <text x="1022" y="294">HOMELAB</text>
-    <text x="1087" y="267">HUMAN GATE</text>
+    <text x="1064" y="267">VALIDATION HUMAINE</text>
   </g>
   <rect x="1" y="1" width="1198" height="358" rx="23" fill="none" stroke="${theme.panelBorder}"/>
 </svg>`;
@@ -198,14 +213,14 @@ function renderStack(theme) {
 
   return `
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 230" role="img" aria-labelledby="title description">
-  <title id="title">Jordan&apos;s technology toolbox</title>
-  <desc id="description">Ten generated badges for the languages, runtimes, infrastructure and platforms used by Jordan.</desc>
+  <title id="title">Boîte à outils technique de Jordan</title>
+  <desc id="description">Dix badges générés pour les langages, environnements, infrastructures et plateformes utilisés par Jordan.</desc>
   <defs>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="${theme.accent}"/><stop offset=".55" stop-color="${theme.accentTwo}"/><stop offset="1" stop-color="${theme.accentThree}"/></linearGradient>
   </defs>
   <style>.mono { font-family: "Cascadia Code", "SFMono-Regular", Consolas, monospace; }</style>
   <rect width="1200" height="230" rx="22" fill="${theme.background}"/>
-  <text x="60" y="48" class="mono" fill="${theme.accent}" font-size="14" font-weight="700" letter-spacing="3">TOOLBOX // BUILD LAYER</text>
+  <text x="60" y="48" class="mono" fill="${theme.accent}" font-size="14" font-weight="700" letter-spacing="3">BOÎTE À OUTILS // COUCHE DE CONSTRUCTION</text>
   <path d="M904 43H1140" stroke="url(#accent)" stroke-width="2" stroke-linecap="round"/>
   ${rows}
   <rect x="1" y="1" width="1198" height="228" rx="21" fill="none" stroke="${theme.panelBorder}"/>
@@ -214,43 +229,74 @@ function renderStack(theme) {
 
 function renderMetrics(theme) {
   const values = [
-    { value: stats.publicRepos, label: "PUBLIC REPOSITORIES", color: theme.accent },
-    { value: stats.followers, label: "GITHUB FOLLOWERS", color: theme.accentTwo },
-    { value: stats.memberSince, label: "BUILDING ON GITHUB SINCE", color: theme.accentThree }
+    { value: stats.publicRepos, label: "DÉPÔTS PUBLICS", color: theme.accent, icon: "repo" },
+    { value: stats.originalPublicRepos, label: "PROJETS ORIGINAUX PUBLICS", color: theme.accentTwo, icon: "project" },
+    { value: stats.starsEarned, label: "ÉTOILES REÇUES", color: theme.accentThree, icon: "star" },
+    { value: stats.publicPullRequests, label: "PULL REQUESTS PUBLIQUES", color: theme.accent, icon: "pull" },
+    { value: stats.followers, label: "ABONNÉS GITHUB", color: theme.accentTwo, icon: "users" }
   ];
-  const cards = values.map((item, index) => {
-    const x = 60 + index * 370;
+  const rows = values.map((item, index) => {
+    const y = 112 + index * 42;
     return `
-      <g transform="translate(${x} 84)">
-        <rect width="340" height="118" rx="18" fill="${theme.panel}" stroke="${theme.panelBorder}"/>
-        <path d="M0 18Q0 0 18 0H116" fill="none" stroke="${item.color}" stroke-width="3"/>
-        <text x="24" y="60" class="sans" fill="${theme.text}" font-size="38" font-weight="750">${escapeXml(String(item.value))}</text>
-        <text x="25" y="91" class="mono" fill="${theme.muted}" font-size="12" font-weight="650" letter-spacing="1.5">${item.label}</text>
+      <g transform="translate(82 ${y})">
+        <use href="#icon-${item.icon}" x="0" y="-13" width="20" height="20" fill="none" stroke="${item.color}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="36" y="2" class="mono" fill="${theme.muted}" font-size="13" font-weight="650" letter-spacing="1">${item.label}</text>
+        <text x="620" y="2" text-anchor="end" class="sans" fill="${theme.text}" font-size="18" font-weight="750">${escapeXml(String(item.value))}</text>
+        ${index < values.length - 1 ? `<path d="M36 17H620" stroke="${theme.panelBorder}" opacity=".55"/>` : ""}
       </g>`;
   }).join("");
 
   const updated = new Date(stats.updatedAt).toISOString().slice(0, 10);
   return `
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 250" role="img" aria-labelledby="title description">
-  <title id="title">Public GitHub pulse for ${escapeXml(config.username)}</title>
-  <desc id="description">${stats.publicRepos} public repositories, ${stats.followers} followers, GitHub member since ${stats.memberSince}. Updated ${updated}.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 350" role="img" aria-labelledby="title description">
+  <title id="title">Pouls GitHub public de ${escapeXml(config.username)}</title>
+  <desc id="description">${stats.publicRepos} dépôts publics, ${stats.originalPublicRepos} projets originaux publics, ${stats.starsEarned} étoiles reçues, ${stats.publicPullRequests} pull requests publiques et ${stats.followers} abonnés. Membre depuis ${stats.memberSince}. Mis à jour le ${updated}.</desc>
+  <defs>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop stop-color="${theme.accent}"/><stop offset=".55" stop-color="${theme.accentTwo}"/><stop offset="1" stop-color="${theme.accentThree}"/></linearGradient>
+    <radialGradient id="metric-glow"><stop stop-color="${theme.accent}" stop-opacity=".2"/><stop offset="1" stop-color="${theme.accent}" stop-opacity="0"/></radialGradient>
+    <symbol id="icon-repo" viewBox="0 0 24 24"><path d="M5 4.5h10.5A2.5 2.5 0 0 1 18 7v13H7.5A2.5 2.5 0 0 1 5 17.5z"/><path d="M5 17.5A2.5 2.5 0 0 1 7.5 15H18M9 8h5"/></symbol>
+    <symbol id="icon-project" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M3 9h18M8 4v5"/></symbol>
+    <symbol id="icon-star" viewBox="0 0 24 24"><path d="m12 3 2.7 5.5 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></symbol>
+    <symbol id="icon-pull" viewBox="0 0 24 24"><circle cx="6" cy="5" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="M6 7.5V16a3 3 0 0 0 3 3h6.5M18 16.5V9a4 4 0 0 0-4-4h-2M14 2l-3 3 3 3"/></symbol>
+    <symbol id="icon-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M3.5 20a5.5 5.5 0 0 1 11 0M16 5.5a3 3 0 0 1 0 5.8M17 14.5a5 5 0 0 1 3.5 4.8"/></symbol>
+  </defs>
   <style>
     .mono { font-family: "Cascadia Code", "SFMono-Regular", Consolas, monospace; }
     .sans { font-family: Inter, "Segoe UI", Arial, sans-serif; }
+    .ring { stroke-dasharray: 490; stroke-dashoffset: 490; animation: draw-ring 2.4s cubic-bezier(.2,.8,.2,1) forwards, breathe 4.5s ease-in-out 2.4s infinite; }
+    .orbit { transform-origin: 955px 188px; animation: orbit 12s linear infinite; }
+    .signal-node { animation: node-pulse 3s ease-in-out infinite; }
+    @keyframes draw-ring { to { stroke-dashoffset: 62; } }
+    @keyframes breathe { 0%, 100% { opacity: .72; } 50% { opacity: 1; } }
+    @keyframes orbit { to { transform: rotate(360deg); } }
+    @keyframes node-pulse { 0%, 100% { opacity: .55; } 50% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { .ring { animation: none; stroke-dashoffset: 62; } .orbit, .signal-node { animation: none; } }
   </style>
-  <rect width="1200" height="250" rx="22" fill="${theme.background}"/>
-  <text x="60" y="47" class="mono" fill="${theme.accent}" font-size="14" font-weight="700" letter-spacing="3">PUBLIC PULSE // ${escapeXml(config.username.toUpperCase())}</text>
-  <text x="1140" y="47" text-anchor="end" class="mono" fill="${theme.muted}" font-size="11">UPDATED ${updated}</text>
-  ${cards}
-  <rect x="1" y="1" width="1198" height="248" rx="21" fill="none" stroke="${theme.panelBorder}"/>
+  <rect width="1200" height="350" rx="22" fill="${theme.background}"/>
+  <text x="60" y="50" class="mono" fill="${theme.accent}" font-size="14" font-weight="700" letter-spacing="3">POULS GITHUB // ${escapeXml(config.username.toUpperCase())}</text>
+  <text x="1140" y="50" text-anchor="end" class="mono" fill="${theme.muted}" font-size="11">MIS À JOUR ${updated}</text>
+  <rect x="60" y="76" width="680" height="234" rx="18" fill="${theme.panel}" stroke="${theme.panelBorder}"/>
+  ${rows}
+  <g>
+    <circle cx="955" cy="188" r="128" fill="url(#metric-glow)"/>
+    <circle cx="955" cy="188" r="78" fill="${theme.panel}" stroke="${theme.panelBorder}" stroke-width="10"/>
+    <circle class="ring" cx="955" cy="188" r="78" fill="none" stroke="url(#ring)" stroke-width="10" stroke-linecap="round" transform="rotate(-90 955 188)"/>
+    <g class="orbit"><circle cx="955" cy="100" r="5" fill="${theme.accentTwo}"/></g>
+    <g class="signal-node" fill="${theme.accent}"><circle cx="934" cy="160" r="5"/><circle cx="976" cy="160" r="5"/><circle cx="955" cy="139" r="5"/></g>
+    <path d="M934 160 955 139l21 21-21 25z" fill="none" stroke="${theme.accent}" stroke-width="2" opacity=".8"/>
+    <text x="955" y="212" text-anchor="middle" class="sans" fill="${theme.text}" font-size="28" font-weight="800">${stats.memberSince}</text>
+    <text x="955" y="235" text-anchor="middle" class="mono" fill="${theme.muted}" font-size="10" font-weight="700" letter-spacing="2">PRÉSENT DEPUIS</text>
+    <text x="955" y="304" text-anchor="middle" class="mono" fill="${theme.accentTwo}" font-size="11" font-weight="700" letter-spacing="2">RÉSEAU PUBLIC ACTIF</text>
+  </g>
+  <rect x="1" y="1" width="1198" height="348" rx="21" fill="none" stroke="${theme.panelBorder}"/>
 </svg>`;
 }
 
 function renderFooter(theme) {
   return `
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" role="img" aria-labelledby="title description">
-  <title id="title">Mycelium network footer</title>
-  <desc id="description">A subtle branching network closing the profile with the phrase build with intent.</desc>
+  <title id="title">Pied de page du réseau Mycelium</title>
+  <desc id="description">Un réseau ramifié discret refermant le profil avec la phrase construire avec intention.</desc>
   <defs>
     <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="${theme.accent}"/><stop offset=".55" stop-color="${theme.accentTwo}"/><stop offset="1" stop-color="${theme.accentThree}"/></linearGradient>
   </defs>
@@ -263,7 +309,7 @@ function renderFooter(theme) {
   <circle cx="495" cy="60" r="4" fill="${theme.accent}"/>
   <circle cx="804" cy="38" r="4" fill="${theme.accentTwo}"/>
   <rect x="452" y="28" width="296" height="38" rx="19" fill="${theme.panel}" stroke="${theme.panelBorder}"/>
-  <text x="600" y="52" text-anchor="middle" class="mono" fill="${theme.text}" font-size="12" font-weight="650" letter-spacing="2">BUILD WITH INTENT // STAY HUMAN</text>
+  <text x="600" y="52" text-anchor="middle" class="mono" fill="${theme.text}" font-size="12" font-weight="650" letter-spacing="2">CONSTRUIRE AVEC INTENTION // RESTER HUMAIN</text>
   <rect x="1" y="1" width="1198" height="118" rx="19" fill="none" stroke="${theme.panelBorder}"/>
 </svg>`;
 }
