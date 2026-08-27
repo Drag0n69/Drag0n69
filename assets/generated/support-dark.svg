@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 180" role="img" aria-labelledby="title description">
+  <title id="title">Soutenir Jordan sur Buy Me a Coffee</title>
+  <desc id="description">Un bouton animé pour offrir un café à Jordan Zerathe et soutenir ses projets local-first.</desc>
+  <defs>
+    <linearGradient id="support-background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070b14"/>
+      <stop offset="1" stop-color="#101a2a"/>
+    </linearGradient>
+    <linearGradient id="support-signal" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#20d69f"/>
+      <stop offset=".52" stop-color="#49b9ff"/>
+      <stop offset="1" stop-color="#a879ff"/>
+    </linearGradient>
+    <linearGradient id="support-button" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#1b55a1"/>
+      <stop offset="1" stop-color="#49b9ff"/>
+    </linearGradient>
+    <radialGradient id="support-glow">
+      <stop stop-color="#49b9ff" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#49b9ff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="support-soft-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    .mono { font-family: "Cascadia Code", "SFMono-Regular", Consolas, monospace; }
+    .sans { font-family: Inter, "Segoe UI", Arial, sans-serif; }
+    .signal { stroke-dasharray: 8 12; animation: support-flow 14s linear infinite; }
+    .steam { transform-box: fill-box; transform-origin: center; animation: steam-rise 3.4s ease-in-out infinite; }
+    .steam.two { animation-delay: -1.6s; }
+    .button { animation: button-pulse 4s ease-in-out infinite; }
+    .node { animation: support-node 3.2s ease-in-out infinite; }
+    @keyframes support-flow { to { stroke-dashoffset: -160; } }
+    @keyframes steam-rise { 0%, 100% { opacity: .18; transform: translateY(5px); } 50% { opacity: 1; transform: translateY(-5px); } }
+    @keyframes button-pulse { 0%, 100% { opacity: .9; } 50% { opacity: 1; } }
+    @keyframes support-node { 0%, 100% { opacity: .45; } 50% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { .signal, .steam, .button, .node { animation: none; } }
+  </style>
+  <rect width="1200" height="180" rx="22" fill="url(#support-background)"/>
+  <circle cx="1010" cy="90" r="210" fill="url(#support-glow)"/>
+  <path class="signal" d="M36 142C210 86 324 162 500 114S780 54 1164 124" fill="none" stroke="url(#support-signal)" stroke-width="2" opacity=".42"/>
+  <g class="node" filter="url(#support-soft-glow)">
+    <circle cx="224" cy="121" r="4" fill="#20d69f"/>
+    <circle cx="500" cy="114" r="5" fill="#49b9ff"/>
+    <circle cx="724" cy="74" r="4" fill="#a879ff"/>
+  </g>
+  <text x="58" y="50" class="mono" fill="#20d69f" font-size="13" font-weight="700" letter-spacing="2.6">SOUTENIR L’ATELIER // CAFÉ + CODE</text>
+  <text x="58" y="92" class="sans" fill="#f0f6fc" font-size="28" font-weight="760">Un petit café, un grand signal dans le réseau.</text>
+  <text x="58" y="121" class="mono" fill="#8b9bb4" font-size="12.5" letter-spacing=".45">Agents IA · outils local-first · homelab · univers interactifs</text>
+  <g class="button" transform="translate(814 48)">
+    <rect width="328" height="84" rx="24" fill="url(#support-button)" stroke="#49b9ff" stroke-opacity=".7"/>
+    <g transform="translate(25 18)" fill="none" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M6 17h33v19a10 10 0 0 1-10 10H16A10 10 0 0 1 6 36z"/>
+      <path d="M39 22h5a8 8 0 0 1 0 16h-5"/>
+      <path class="steam" d="M15 11c-5-6 5-7 0-13"/>
+      <path class="steam two" d="M28 11c-5-6 5-7 0-13"/>
+      <path d="M11 22h23" stroke="#ffdd00" stroke-width="4"/>
+    </g>
+    <text x="88" y="35" class="sans" fill="#ffffff" font-size="18" font-weight="800">M’OFFRIR UN CAFÉ</text>
+    <text x="88" y="60" class="mono" fill="#ffffff" fill-opacity=".82" font-size="11.5" font-weight="650" letter-spacing="1.4">BUY ME A COFFEE · JORDANZERAX</text>
+  </g>
+  <rect x="1" y="1" width="1198" height="178" rx="21" fill="none" stroke="#24344d"/>
+</svg>

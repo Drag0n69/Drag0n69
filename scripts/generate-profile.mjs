@@ -49,10 +49,11 @@ for (const [name, theme] of Object.entries(themes)) {
   await writeSvg(`banner-${name}.svg`, renderBanner(theme));
   await writeSvg(`stack-${name}.svg`, renderStack(theme));
   await writeSvg(`metrics-${name}.svg`, renderMetrics(theme));
+  await writeSvg(`support-${name}.svg`, renderSupport(theme));
   await writeSvg(`footer-${name}.svg`, renderFooter(theme));
 }
 
-console.log(`Generated 8 SVG assets in ${path.relative(root, outputDirectory)}`);
+console.log(`Generated 10 SVG assets in ${path.relative(root, outputDirectory)}`);
 
 async function fetchPublicStats(username) {
   const headers = {
@@ -289,6 +290,78 @@ function renderMetrics(theme) {
     <text x="955" y="304" text-anchor="middle" class="mono" fill="${theme.accentTwo}" font-size="11" font-weight="700" letter-spacing="2">RÉSEAU PUBLIC ACTIF</text>
   </g>
   <rect x="1" y="1" width="1198" height="348" rx="21" fill="none" stroke="${theme.panelBorder}"/>
+</svg>`;
+}
+
+function renderSupport(theme) {
+  const buttonBlue = "#1b55a1";
+  const coffeeYellow = "#ffdd00";
+
+  return `
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 180" role="img" aria-labelledby="title description">
+  <title id="title">Soutenir Jordan sur Buy Me a Coffee</title>
+  <desc id="description">Un bouton animé pour offrir un café à Jordan Zerathe et soutenir ses projets local-first.</desc>
+  <defs>
+    <linearGradient id="support-background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="${theme.background}"/>
+      <stop offset="1" stop-color="${theme.backgroundEnd}"/>
+    </linearGradient>
+    <linearGradient id="support-signal" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="${theme.accent}"/>
+      <stop offset=".52" stop-color="${theme.accentTwo}"/>
+      <stop offset="1" stop-color="${theme.accentThree}"/>
+    </linearGradient>
+    <linearGradient id="support-button" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="${buttonBlue}"/>
+      <stop offset="1" stop-color="${theme.accentTwo}"/>
+    </linearGradient>
+    <radialGradient id="support-glow">
+      <stop stop-color="${theme.accentTwo}" stop-opacity=".24"/>
+      <stop offset="1" stop-color="${theme.accentTwo}" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="support-soft-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    .mono { font-family: "Cascadia Code", "SFMono-Regular", Consolas, monospace; }
+    .sans { font-family: Inter, "Segoe UI", Arial, sans-serif; }
+    .signal { stroke-dasharray: 8 12; animation: support-flow 14s linear infinite; }
+    .steam { transform-box: fill-box; transform-origin: center; animation: steam-rise 3.4s ease-in-out infinite; }
+    .steam.two { animation-delay: -1.6s; }
+    .button { animation: button-pulse 4s ease-in-out infinite; }
+    .node { animation: support-node 3.2s ease-in-out infinite; }
+    @keyframes support-flow { to { stroke-dashoffset: -160; } }
+    @keyframes steam-rise { 0%, 100% { opacity: .18; transform: translateY(5px); } 50% { opacity: 1; transform: translateY(-5px); } }
+    @keyframes button-pulse { 0%, 100% { opacity: .9; } 50% { opacity: 1; } }
+    @keyframes support-node { 0%, 100% { opacity: .45; } 50% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { .signal, .steam, .button, .node { animation: none; } }
+  </style>
+  <rect width="1200" height="180" rx="22" fill="url(#support-background)"/>
+  <circle cx="1010" cy="90" r="210" fill="url(#support-glow)"/>
+  <path class="signal" d="M36 142C210 86 324 162 500 114S780 54 1164 124" fill="none" stroke="url(#support-signal)" stroke-width="2" opacity=".42"/>
+  <g class="node" filter="url(#support-soft-glow)">
+    <circle cx="224" cy="121" r="4" fill="${theme.accent}"/>
+    <circle cx="500" cy="114" r="5" fill="${theme.accentTwo}"/>
+    <circle cx="724" cy="74" r="4" fill="${theme.accentThree}"/>
+  </g>
+  <text x="58" y="50" class="mono" fill="${theme.accent}" font-size="13" font-weight="700" letter-spacing="2.6">SOUTENIR L’ATELIER // CAFÉ + CODE</text>
+  <text x="58" y="92" class="sans" fill="${theme.text}" font-size="28" font-weight="760">Un petit café, un grand signal dans le réseau.</text>
+  <text x="58" y="121" class="mono" fill="${theme.muted}" font-size="12.5" letter-spacing=".45">Agents IA · outils local-first · homelab · univers interactifs</text>
+  <g class="button" transform="translate(814 48)">
+    <rect width="328" height="84" rx="24" fill="url(#support-button)" stroke="${theme.accentTwo}" stroke-opacity=".7"/>
+    <g transform="translate(25 18)" fill="none" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M6 17h33v19a10 10 0 0 1-10 10H16A10 10 0 0 1 6 36z"/>
+      <path d="M39 22h5a8 8 0 0 1 0 16h-5"/>
+      <path class="steam" d="M15 11c-5-6 5-7 0-13"/>
+      <path class="steam two" d="M28 11c-5-6 5-7 0-13"/>
+      <path d="M11 22h23" stroke="${coffeeYellow}" stroke-width="4"/>
+    </g>
+    <text x="88" y="35" class="sans" fill="#ffffff" font-size="18" font-weight="800">M’OFFRIR UN CAFÉ</text>
+    <text x="88" y="60" class="mono" fill="#ffffff" fill-opacity=".82" font-size="11.5" font-weight="650" letter-spacing="1.4">BUY ME A COFFEE · ${escapeXml(config.support.handle.toUpperCase())}</text>
+  </g>
+  <rect x="1" y="1" width="1198" height="178" rx="21" fill="none" stroke="${theme.panelBorder}"/>
 </svg>`;
 }
 

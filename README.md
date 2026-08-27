@@ -57,10 +57,45 @@
 
 ## Projets choisis
 
-- **[Myxelium-Corp](https://github.com/Myxelium-Corp)** — l’espace public consacré à l’orchestration d’agents et aux outils d’IA souverains.
-- **[CrownCacheAddonWoWAscension](https://github.com/Drag0n69/CrownCacheAddonWowAssension)** — un add-on Lua issu du côté gaming de l’atelier.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🍄 <a href="https://github.com/Drag0n69/Mycelium">Mycelium</a></h3>
+      Mon projet d’orchestration IA : agents, mémoire durable, flux de connaissances et décisions humaines.<br><br>
+      <code>orchestration IA</code> <code>local-first</code> <code>human-in-the-loop</code>
+    </td>
+    <td width="50%" valign="top">
+      <h3>⚙️ <a href="https://github.com/Drag0n69/Gearforge-Venture">Gearforge Venture</a></h3>
+      Un builder 3D dans un univers steampunk, avec une reprise en Three.js envisagée.<br><br>
+      <code>jeu 3D</code> <code>steampunk</code> <code>Three.js — envisagé</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🕸️ <a href="https://github.com/Myxelium-Corp">Myxelium-Corp</a></h3>
+      L’espace public consacré à l’orchestration d’agents et aux outils d’IA souverains.<br><br>
+      <code>écosystème</code> <code>agents</code> <code>open source</code>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🎮 <a href="https://github.com/Drag0n69/CrownCacheAddonWowAssension">CrownCacheAddonWoWAscension</a></h3>
+      Un add-on Lua issu du côté gaming de l’atelier.<br><br>
+      <code>Lua</code> <code>gaming</code> <code>add-on</code>
+    </td>
+  </tr>
+</table>
 
-> La majeure partie de l’atelier reste privée pendant la consolidation et la documentation des projets.
+> [!NOTE]
+> Plusieurs projets sont encore privés pendant leur consolidation. Leurs cartes sont déjà en place pour que le profil soit prêt le jour de leur ouverture.
+
+## Soutenir l’atelier
+
+<a href="https://buymeacoffee.com/jordanzerax">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/support-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/generated/support-light.svg">
+    <img alt="Offrir un café à Jordan Zerathe sur Buy Me a Coffee" src="./assets/generated/support-light.svg" width="100%">
+  </picture>
+</a>
 
 ## Principes de fonctionnement
 

@@ -4,6 +4,10 @@
   "identity": "CONSTRUCTEUR MYCELIUM",
   "headline": "AGENTS IA  ·  SYSTÈMES LOCAL-FIRST  ·  HOMELAB",
   "statement": "CONSTRUIRE DES OUTILS SOUVERAINS, GARDER L'HUMAIN AUX COMMANDES",
+  "support": {
+    "url": "https://buymeacoffee.com/jordanzerax",
+    "handle": "jordanzerax"
+  },
   "stack": [
     { "label": "TypeScript", "color": "#3178c6" },
     { "label": "Python", "color": "#ffd343" },

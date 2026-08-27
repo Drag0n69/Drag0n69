@@ -12,6 +12,8 @@ const expectedAssets = [
   "stack-light.svg",
   "metrics-dark.svg",
   "metrics-light.svg",
+  "support-dark.svg",
+  "support-light.svg",
   "footer-dark.svg",
   "footer-light.svg"
 ];
@@ -44,6 +46,7 @@ for (const asset of expectedAssets) {
 }
 if (/<\/br\s*>/i.test(readme)) errors.push("README.md: invalid closing br tag");
 if (/target="_blank"/i.test(readme)) errors.push("README.md: unnecessary target attribute");
+if (/<script\b/i.test(readme)) errors.push("README.md: scripts are not allowed");
 
 if (errors.length > 0) {
   console.error(`Profile validation failed:\n- ${errors.join("\n- ")}`);
