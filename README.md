@@ -58,7 +58,6 @@
 ## Projets choisis
 
 - **[Myxelium-Corp](https://github.com/Myxelium-Corp)** — l’espace public consacré à l’orchestration d’agents et aux outils d’IA souverains.
-- **[Fusion](https://github.com/Myxelium-Corp/Fusion)** — expérimentations autour de l’orchestration d’agents sur plusieurs nœuds.
 - **[CrownCacheAddonWoWAscension](https://github.com/Drag0n69/CrownCacheAddonWowAssension)** — un add-on Lua issu du côté gaming de l’atelier.
 
 > La majeure partie de l’atelier reste privée pendant la consolidation et la documentation des projets.
